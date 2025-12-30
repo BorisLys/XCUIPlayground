@@ -1,17 +1,19 @@
 import SwiftUI
 
 struct FlowView: View {
+    @StateObject private var viewModel = FlowViewModel()
+
     var body: some View {
         NavigationView {
             VStack {
-                Text(String(localized: "FlowView.title"))
+                Text(viewModel.title)
                     .font(.largeTitle)
                     .padding()
                 
-                Text(String(localized: "FlowView.description"))
+                Text(viewModel.descriptionText)
                     .foregroundColor(.secondary)
             }
-            .navigationTitle(String(localized: "FlowView.title"))
+            .navigationTitle(viewModel.title)
         }
     }
 }

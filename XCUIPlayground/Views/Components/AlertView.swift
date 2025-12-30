@@ -1,13 +1,7 @@
 import SwiftUI
 
 struct AlertView: View {
-    @State private var showBasicAlert = false
-    @State private var showTwoButtonAlert = false
-    @State private var showDestructiveAlert = false
-    @State private var showTextFieldAlert = false
-    @State private var alertText: String = ""
-    @State private var showToast = false
-    @State private var toastMessage: String = ""
+    @StateObject private var viewModel = AlertViewModel()
     
     var body: some View {
         ZStack {
@@ -20,7 +14,7 @@ struct AlertView: View {
                         .foregroundColor(.primary)
                     
                     Button(action: {
-                        showBasicAlert = true
+                        viewModel.showBasicAlert = true
                     }) {
                         Text(String(localized: "AlertView.showBasicAlert"))
                             .frame(maxWidth: .infinity)
@@ -33,7 +27,7 @@ struct AlertView: View {
                 .padding()
                 .background(Color(.systemGray6))
                 .cornerRadius(12)
-                .alert(String(localized: "AlertView.basicAlertTitle"), isPresented: $showBasicAlert) {
+                .alert(String(localized: "AlertView.basicAlertTitle"), isPresented: $viewModel.showBasicAlert) {
                     Button(String(localized: "AlertView.ok"), role: .cancel) { }
                 } message: {
                     Text(String(localized: "AlertView.basicAlertMessage"))
@@ -46,7 +40,7 @@ struct AlertView: View {
                         .foregroundColor(.primary)
                     
                     Button(action: {
-                        showTwoButtonAlert = true
+                        viewModel.showTwoButtonAlert = true
                     }) {
                         Text(String(localized: "AlertView.showTwoButtonAlert"))
                             .frame(maxWidth: .infinity)
@@ -59,7 +53,7 @@ struct AlertView: View {
                 .padding()
                 .background(Color(.systemGray6))
                 .cornerRadius(12)
-                .alert(String(localized: "AlertView.twoButtonAlertTitle"), isPresented: $showTwoButtonAlert) {
+                .alert(String(localized: "AlertView.twoButtonAlertTitle"), isPresented: $viewModel.showTwoButtonAlert) {
                     Button(String(localized: "AlertView.cancel"), role: .cancel) { }
                     Button(String(localized: "AlertView.confirm")) { }
                 } message: {
@@ -73,7 +67,7 @@ struct AlertView: View {
                         .foregroundColor(.primary)
                     
                     Button(action: {
-                        showDestructiveAlert = true
+                        viewModel.showDestructiveAlert = true
                     }) {
                         Text(String(localized: "AlertView.showDestructiveAlert"))
                             .frame(maxWidth: .infinity)
@@ -86,7 +80,7 @@ struct AlertView: View {
                 .padding()
                 .background(Color(.systemGray6))
                 .cornerRadius(12)
-                .alert(String(localized: "AlertView.destructiveAlertTitle"), isPresented: $showDestructiveAlert) {
+                .alert(String(localized: "AlertView.destructiveAlertTitle"), isPresented: $viewModel.showDestructiveAlert) {
                     Button(String(localized: "AlertView.cancel"), role: .cancel) { }
                     Button(String(localized: "AlertView.delete"), role: .destructive) { }
                 } message: {
@@ -100,7 +94,7 @@ struct AlertView: View {
                         .foregroundColor(.primary)
                     
                     Button(action: {
-                        showTextFieldAlert = true
+                        viewModel.showTextFieldAlert = true
                     }) {
                         Text(String(localized: "AlertView.showTextFieldAlert"))
                             .frame(maxWidth: .infinity)
@@ -113,21 +107,13 @@ struct AlertView: View {
                 .padding()
                 .background(Color(.systemGray6))
                 .cornerRadius(12)
-                .alert(String(localized: "AlertView.textFieldAlertTitle"), isPresented: $showTextFieldAlert) {
-                    TextField(String(localized: "AlertView.textFieldPlaceholder"), text: $alertText)
+                .alert(String(localized: "AlertView.textFieldAlertTitle"), isPresented: $viewModel.showTextFieldAlert) {
+                    TextField(String(localized: "AlertView.textFieldPlaceholder"), text: $viewModel.alertText)
                     Button(String(localized: "AlertView.cancel"), role: .cancel) {
-                        alertText = ""
+                        viewModel.resetTextField()
                     }
                     Button(String(localized: "AlertView.save")) {
-                        if !alertText.isEmpty {
-                            toastMessage = alertText
-                            showToast = true
-                            // Автоматически скрыть через 3 секунды
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
-                                showToast = false
-                            }
-                        }
-                        alertText = ""
+                        viewModel.showTextFieldSavedToast()
                     }
                 } message: {
                     Text(String(localized: "AlertView.textFieldAlertMessage"))
@@ -137,11 +123,11 @@ struct AlertView: View {
             }
             
             // Всплывающее сообщение (toast)
-            if showToast {
+            if viewModel.showToast {
                 VStack {
                     Spacer()
                     HStack {
-                        Text(toastMessage)
+                        Text(viewModel.toastMessage)
                             .font(.body)
                             .foregroundColor(.white)
                             .padding()
@@ -151,7 +137,7 @@ struct AlertView: View {
                     .padding()
                     .transition(.move(edge: .bottom).combined(with: .opacity))
                 }
-                .animation(.easeInOut, value: showToast)
+                .animation(.easeInOut, value: viewModel.showToast)
             }
         }
     }
@@ -163,4 +149,3 @@ struct AlertView: View {
             .navigationTitle("Alert")
     }
 }
-

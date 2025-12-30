@@ -1,11 +1,7 @@
 import SwiftUI
 
 struct ToggleView: View {
-    @State private var isNotificationsEnabled: Bool = true
-    @State private var isDarkModeEnabled: Bool = false
-    @State private var isWiFiEnabled: Bool = true
-    @State private var isBluetoothEnabled: Bool = false
-    @State private var isLocationEnabled: Bool = true
+    @StateObject private var viewModel = ToggleViewModel()
     
     var body: some View {
         ScrollView {
@@ -16,9 +12,9 @@ struct ToggleView: View {
                         .font(.headline)
                         .foregroundColor(.primary)
                     
-                    Toggle(String(localized: "ToggleView.notificationsLabel"), isOn: $isNotificationsEnabled)
+                    Toggle(String(localized: "ToggleView.notificationsLabel"), isOn: $viewModel.isNotificationsEnabled)
                     
-                    Text(String(localized: "ToggleView.state") + ": \(isNotificationsEnabled ? String(localized: "ToggleView.on") : String(localized: "ToggleView.off"))")
+                    Text(String(localized: "ToggleView.state") + ": \(viewModel.isNotificationsEnabled ? String(localized: "ToggleView.on") : String(localized: "ToggleView.off"))")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -35,10 +31,10 @@ struct ToggleView: View {
                     HStack {
                         Image(systemName: "moon.fill")
                             .foregroundColor(.blue)
-                        Toggle(String(localized: "ToggleView.darkModeLabel"), isOn: $isDarkModeEnabled)
+                        Toggle(String(localized: "ToggleView.darkModeLabel"), isOn: $viewModel.isDarkModeEnabled)
                     }
                     
-                    Text(String(localized: "ToggleView.state") + ": \(isDarkModeEnabled ? String(localized: "ToggleView.on") : String(localized: "ToggleView.off"))")
+                    Text(String(localized: "ToggleView.state") + ": \(viewModel.isDarkModeEnabled ? String(localized: "ToggleView.on") : String(localized: "ToggleView.off"))")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -53,11 +49,11 @@ struct ToggleView: View {
                         .foregroundColor(.primary)
                     
                     VStack(spacing: 16) {
-                        Toggle(String(localized: "ToggleView.wiFiLabel"), isOn: $isWiFiEnabled)
+                        Toggle(String(localized: "ToggleView.wiFiLabel"), isOn: $viewModel.isWiFiEnabled)
                         
-                        Toggle(String(localized: "ToggleView.bluetoothLabel"), isOn: $isBluetoothEnabled)
+                        Toggle(String(localized: "ToggleView.bluetoothLabel"), isOn: $viewModel.isBluetoothEnabled)
                         
-                        Toggle(String(localized: "ToggleView.locationLabel"), isOn: $isLocationEnabled)
+                        Toggle(String(localized: "ToggleView.locationLabel"), isOn: $viewModel.isLocationEnabled)
                     }
                 }
                 .padding()
@@ -75,4 +71,3 @@ struct ToggleView: View {
             .navigationTitle("Toggle")
     }
 }
-

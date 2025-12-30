@@ -1,10 +1,7 @@
 import SwiftUI
 
 struct ButtonView: View {
-    @State private var isTapped = false
-    @State private var isEnabled = false
-    @State private var isLoading = false
-    @State private var isSuccess = false
+    @StateObject private var viewModel = ButtonViewModel()
     
     var body: some View {
         ScrollView {
@@ -16,9 +13,9 @@ struct ButtonView: View {
                         .foregroundColor(.primary)
                     
                     Button(action: {
-                        isTapped.toggle()
+                        viewModel.toggleTapped()
                     }) {
-                        Text(isTapped ? String(localized: "ButtonView.tapped") : String(localized: "ButtonView.normalButton"))
+                        Text(viewModel.isTapped ? String(localized: "ButtonView.tapped") : String(localized: "ButtonView.normalButton"))
                             .frame(maxWidth: .infinity)
                             .padding()
                             .background(Color.blue)
@@ -36,7 +33,7 @@ struct ButtonView: View {
                         .font(.headline)
                         .foregroundColor(.primary)
                     
-                    Toggle(String(localized: "ButtonView.enableButton"), isOn: $isEnabled)
+                    Toggle(String(localized: "ButtonView.enableButton"), isOn: $viewModel.isEnabled)
                         .padding(.bottom, 8)
                     
                     Button(action: {
@@ -45,11 +42,11 @@ struct ButtonView: View {
                         Text(String(localized: "ButtonView.disabledButton"))
                             .frame(maxWidth: .infinity)
                             .padding()
-                            .background(isEnabled ? Color.blue : Color.gray)
+                            .background(viewModel.isEnabled ? Color.blue : Color.gray)
                             .foregroundColor(.white)
                             .cornerRadius(10)
                     }
-                    .disabled(!isEnabled)
+                    .disabled(!viewModel.isEnabled)
                 }
                 .padding()
                 .background(Color(.systemGray6))
@@ -62,38 +59,26 @@ struct ButtonView: View {
                         .foregroundColor(.primary)
                     
                     Button(action: {
-                        isLoading = true
-                        isSuccess = false
-                        
-                        // Симуляция загрузки через 2-3 секунды
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 2.5) {
-                            isLoading = false
-                            isSuccess = true
-                            
-                            // Сброс success через 2 секунды
-                            DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                                isSuccess = false
-                            }
-                        }
+                        viewModel.startLoading()
                     }) {
                         HStack(spacing: 8) {
-                            if isLoading {
+                            if viewModel.isLoading {
                                 ProgressView()
                                     .progressViewStyle(CircularProgressViewStyle(tint: .white))
                                     .scaleEffect(0.8)
-                            } else if isSuccess {
+                            } else if viewModel.isSuccess {
                                 Image(systemName: "checkmark.circle.fill")
                             }
                             
-                            Text(isSuccess ? String(localized: "ButtonView.success") : String(localized: "ButtonView.loadingButton"))
+                            Text(viewModel.isSuccess ? String(localized: "ButtonView.success") : String(localized: "ButtonView.loadingButton"))
                                 .frame(maxWidth: .infinity)
                         }
                         .padding()
-                        .background(isLoading ? Color.blue : (isSuccess ? Color.green : Color.blue))
+                        .background(viewModel.isLoading ? Color.blue : (viewModel.isSuccess ? Color.green : Color.blue))
                         .foregroundColor(.white)
                         .cornerRadius(10)
                     }
-                    .disabled(isLoading)
+                    .disabled(viewModel.isLoading)
                 }
                 .padding()
                 .background(Color(.systemGray6))
@@ -110,4 +95,3 @@ struct ButtonView: View {
             .navigationTitle("Button")
     }
 }
-

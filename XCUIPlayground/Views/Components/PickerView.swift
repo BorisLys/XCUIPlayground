@@ -1,13 +1,7 @@
 import SwiftUI
 
 struct PickerView: View {
-    @State private var selectedColor: String = "Red"
-    let colors = ["Red", "Green", "Blue", "Yellow", "Purple"]
-    
-    @State private var selectedSize: String = "Small"
-    let sizes = ["Small", "Medium", "Large", "Extra Large"]
-    
-    @State private var selectedDate: Date = Date()
+    @StateObject private var viewModel = PickerViewModel()
     
     var body: some View {
         ScrollView {
@@ -18,15 +12,15 @@ struct PickerView: View {
                         .font(.headline)
                         .foregroundColor(.primary)
                     
-                    Picker(String(localized: "PickerView.colorLabel"), selection: $selectedColor) {
-                        ForEach(colors, id: \.self) { color in
+                    Picker(String(localized: "PickerView.colorLabel"), selection: $viewModel.selectedColor) {
+                        ForEach(viewModel.colors, id: \.self) { color in
                             Text(color).tag(color)
                         }
                     }
                     .pickerStyle(.menu)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     
-                    Text(String(localized: "PickerView.selected") + ": \(selectedColor)")
+                    Text(String(localized: "PickerView.selected") + ": \(viewModel.selectedColor)")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -40,14 +34,14 @@ struct PickerView: View {
                         .font(.headline)
                         .foregroundColor(.primary)
                     
-                    Picker(String(localized: "PickerView.sizeLabel"), selection: $selectedSize) {
-                        ForEach(sizes, id: \.self) { size in
+                    Picker(String(localized: "PickerView.sizeLabel"), selection: $viewModel.selectedSize) {
+                        ForEach(viewModel.sizes, id: \.self) { size in
                             Text(size).tag(size)
                         }
                     }
                     .pickerStyle(.segmented)
                     
-                    Text(String(localized: "PickerView.selected") + ": \(selectedSize)")
+                    Text(String(localized: "PickerView.selected") + ": \(viewModel.selectedSize)")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -61,15 +55,15 @@ struct PickerView: View {
                         .font(.headline)
                         .foregroundColor(.primary)
                     
-                    Picker(String(localized: "PickerView.colorLabel"), selection: $selectedColor) {
-                        ForEach(colors, id: \.self) { color in
+                    Picker(String(localized: "PickerView.colorLabel"), selection: $viewModel.selectedColor) {
+                        ForEach(viewModel.colors, id: \.self) { color in
                             Text(color).tag(color)
                         }
                     }
                     .pickerStyle(.wheel)
                     .frame(height: 150)
                     
-                    Text(String(localized: "PickerView.selected") + ": \(selectedColor)")
+                    Text(String(localized: "PickerView.selected") + ": \(viewModel.selectedColor)")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -85,12 +79,12 @@ struct PickerView: View {
                     
                     DatePicker(
                         String(localized: "PickerView.dateLabel"),
-                        selection: $selectedDate,
+                        selection: $viewModel.selectedDate,
                         displayedComponents: [.date, .hourAndMinute]
                     )
                     .datePickerStyle(.compact)
                     
-                    Text(String(localized: "PickerView.selectedDate") + ": \(formatDate(selectedDate))")
+                    Text(String(localized: "PickerView.selectedDate") + ": \(viewModel.formatDate(viewModel.selectedDate))")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -102,12 +96,6 @@ struct PickerView: View {
         }
     }
     
-    private func formatDate(_ date: Date) -> String {
-        let formatter = DateFormatter()
-        formatter.dateStyle = .medium
-        formatter.timeStyle = .short
-        return formatter.string(from: date)
-    }
 }
 
 #Preview {
@@ -116,4 +104,3 @@ struct PickerView: View {
             .navigationTitle("Picker")
     }
 }
-

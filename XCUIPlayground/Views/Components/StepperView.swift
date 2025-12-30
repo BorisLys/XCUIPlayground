@@ -1,9 +1,7 @@
 import SwiftUI
 
 struct StepperView: View {
-    @State private var quantity: Int = 1
-    @State private var minValue: Int = 1
-    @State private var maxValue: Int = 10
+    @StateObject private var viewModel = StepperViewModel()
     
     var body: some View {
         VStack(spacing: 40) {
@@ -21,18 +19,18 @@ struct StepperView: View {
                     Spacer()
                     
                     Stepper(
-                        value: $quantity,
-                        in: minValue...maxValue,
+                        value: $viewModel.quantity,
+                        in: viewModel.minValue...viewModel.maxValue,
                         step: 1
                     ) {
-                        Text("\(quantity)")
+                        Text("\(viewModel.quantity)")
                             .font(.title2)
                             .fontWeight(.semibold)
                             .frame(minWidth: 50)
                     }
                 }
                 
-                Text(String(localized: "StepperView.range") + ": \(minValue) - \(maxValue)")
+                Text(String(localized: "StepperView.range") + ": \(viewModel.minValue) - \(viewModel.maxValue)")
                     .font(.caption)
                     .foregroundColor(.secondary)
             }
@@ -52,4 +50,3 @@ struct StepperView: View {
             .navigationTitle("Stepper")
     }
 }
-

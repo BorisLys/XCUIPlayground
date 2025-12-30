@@ -1,9 +1,7 @@
 import SwiftUI
 
 struct SliderView: View {
-    @State private var sliderValue: Double = 50.0
-    @State private var minValue: Double = 0.0
-    @State private var maxValue: Double = 100.0
+    @StateObject private var viewModel = SliderViewModel()
     
     var body: some View {
         VStack(spacing: 40) {
@@ -16,17 +14,17 @@ struct SliderView: View {
                     .foregroundColor(.primary)
                 
                 Slider(
-                    value: $sliderValue,
-                    in: minValue...maxValue,
+                    value: $viewModel.sliderValue,
+                    in: viewModel.minValue...viewModel.maxValue,
                     step: 1.0
                 ) {
                     Text(String(localized: "SliderView.sliderLabel"))
                 } minimumValueLabel: {
-                    Text("\(Int(minValue))")
+                    Text("\(Int(viewModel.minValue))")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 } maximumValueLabel: {
-                    Text("\(Int(maxValue))")
+                    Text("\(Int(viewModel.maxValue))")
                         .font(.caption)
                         .foregroundColor(.secondary)
                 }
@@ -42,7 +40,7 @@ struct SliderView: View {
                     .font(.headline)
                     .foregroundColor(.primary)
                 
-                Text("\(Int(sliderValue))")
+                Text("\(Int(viewModel.sliderValue))")
                     .font(.system(size: 48, weight: .bold))
                     .foregroundColor(.blue)
                     .padding()
@@ -66,4 +64,3 @@ struct SliderView: View {
             .navigationTitle("Slider")
     }
 }
-

@@ -1,17 +1,19 @@
 import SwiftUI
 
 struct StatesView: View {
+    @StateObject private var viewModel = StatesViewModel()
+
     var body: some View {
         NavigationView {
             VStack {
-                Text(String(localized: "StatesView.title"))
+                Text(viewModel.title)
                     .font(.largeTitle)
                     .padding()
                 
-                Text(String(localized: "StatesView.description"))
+                Text(viewModel.descriptionText)
                     .foregroundColor(.secondary)
             }
-            .navigationTitle(String(localized: "StatesView.title"))
+            .navigationTitle(viewModel.title)
         }
     }
 }

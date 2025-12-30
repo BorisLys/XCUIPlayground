@@ -3,34 +3,29 @@ import PhotosUI
 import Photos
 
 struct PhotoPermissionView: View {
-    @AppStorage("savedPhotoData") private var savedPhotoData: Data?
-    @State private var photoStatus: PHAuthorizationStatus = .notDetermined
-    @State private var selectedPhoto: PhotosPickerItem?
-    @State private var selectedImage: UIImage?
-    @State private var showAlert = false
-    @State private var alertMessage: String = ""
+    @StateObject private var viewModel = PhotoPermissionViewModel()
     
     var body: some View {
         ScrollView {
             VStack(spacing: 24) {
                 // Кнопка запроса разрешения
-                if photoStatus != .authorized && photoStatus != .limited {
+                if viewModel.photoStatus != .authorized && viewModel.photoStatus != .limited {
                     VStack(alignment: .leading, spacing: 12) {
                         Text(String(localized: "PhotoPermissionView.requestTitle"))
                             .font(.headline)
                             .foregroundColor(.primary)
                         
                         Button(action: {
-                            requestPhotoPermission()
+                            viewModel.requestPhotoPermission()
                         }) {
                             Text(String(localized: "PhotoPermissionView.requestButton"))
                                 .frame(maxWidth: .infinity)
                                 .padding()
-                                .background(photoStatus == .denied ? Color.gray : Color.blue)
+                                .background(viewModel.photoStatus == .denied ? Color.gray : Color.blue)
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
-                        .disabled(photoStatus == .denied)
+                        .disabled(viewModel.photoStatus == .denied)
                     }
                     .padding()
                     .background(Color(.systemGray6).opacity(0.3))
@@ -38,14 +33,14 @@ struct PhotoPermissionView: View {
                 }
                 
                 // Кнопка открытия настроек
-                if photoStatus == .denied {
+                if viewModel.photoStatus == .denied {
                     VStack(alignment: .leading, spacing: 12) {
                         Text(String(localized: "PhotoPermissionView.settingsTitle"))
                             .font(.headline)
                             .foregroundColor(.primary)
                         
                         Button(action: {
-                            openSettings()
+                            viewModel.openSettings()
                         }) {
                             Text(String(localized: "PhotoPermissionView.settingsButton"))
                                 .frame(maxWidth: .infinity)
@@ -61,14 +56,14 @@ struct PhotoPermissionView: View {
                 }
                 
                 // Выбор фото
-                if photoStatus == .authorized || photoStatus == .limited {
+                if viewModel.photoStatus == .authorized || viewModel.photoStatus == .limited {
                     VStack(alignment: .leading, spacing: 12) {
                         Text(String(localized: "PhotoPermissionView.selectPhotoTitle"))
                             .font(.headline)
                             .foregroundColor(.primary)
                         
                         PhotosPicker(
-                            selection: $selectedPhoto,
+                            selection: $viewModel.selectedPhoto,
                             matching: .images,
                             photoLibrary: .shared()
                         ) {
@@ -85,7 +80,7 @@ struct PhotoPermissionView: View {
                     .cornerRadius(12)
                     
                     // Отображение выбранного фото
-                    if let selectedImage = selectedImage {
+                    if let selectedImage = viewModel.selectedImage {
                         VStack(alignment: .leading, spacing: 12) {
                             Text(String(localized: "PhotoPermissionView.selectedPhotoTitle"))
                                 .font(.headline)
@@ -107,67 +102,16 @@ struct PhotoPermissionView: View {
         }
         .navigationTitle(String(localized: "PhotoPermissionView.title"))
         .onAppear {
-            checkPhotoStatus()
-            loadSavedPhoto()
+            viewModel.checkPhotoStatus()
+            viewModel.loadSavedPhoto()
         }
-        .onChange(of: selectedPhoto) { oldValue, newValue in
-            loadPhoto(from: newValue)
+        .onChange(of: viewModel.selectedPhoto) { oldValue, newValue in
+            viewModel.loadPhoto(from: newValue)
         }
-        .alert(String(localized: "PhotoPermissionView.alertTitle"), isPresented: $showAlert) {
+        .alert(String(localized: "PhotoPermissionView.alertTitle"), isPresented: $viewModel.showAlert) {
             Button(String(localized: "AlertView.ok"), role: .cancel) { }
         } message: {
-            Text(alertMessage)
-        }
-    }
-    
-    private func checkPhotoStatus() {
-        photoStatus = PHPhotoLibrary.authorizationStatus(for: .readWrite)
-    }
-    
-    private func requestPhotoPermission() {
-        PHPhotoLibrary.requestAuthorization(for: .readWrite) { status in
-            DispatchQueue.main.async {
-                photoStatus = status
-                if status == .authorized || status == .limited {
-                    alertMessage = String(localized: "PhotoPermissionView.successMessage")
-                    showAlert = true
-                } else if status == .denied {
-                    alertMessage = String(localized: "PhotoPermissionView.deniedMessage")
-                    showAlert = true
-                }
-            }
-        }
-    }
-    
-    private func openSettings() {
-        if let url = URL(string: UIApplication.openSettingsURLString) {
-            UIApplication.shared.open(url)
-        }
-    }
-    
-    private func loadPhoto(from item: PhotosPickerItem?) {
-        guard let item = item else { return }
-        
-        item.loadTransferable(type: Data.self) { result in
-            DispatchQueue.main.async {
-                switch result {
-                case .success(let data):
-                    if let data = data, let image = UIImage(data: data) {
-                        selectedImage = image
-                        // Сохраняем фото
-                        savedPhotoData = data
-                    }
-                case .failure(let error):
-                    alertMessage = String(localized: "PhotoPermissionView.loadError") + ": \(error.localizedDescription)"
-                    showAlert = true
-                }
-            }
-        }
-    }
-    
-    private func loadSavedPhoto() {
-        if let data = savedPhotoData, let image = UIImage(data: data) {
-            selectedImage = image
+            Text(viewModel.alertMessage)
         }
     }
 }
@@ -177,4 +121,3 @@ struct PhotoPermissionView: View {
         PhotoPermissionView()
     }
 }
-
