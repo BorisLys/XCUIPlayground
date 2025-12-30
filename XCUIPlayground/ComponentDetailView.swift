@@ -13,6 +13,8 @@ struct ComponentDetailView: View {
                 SliderView()
             } else if componentName == String(localized: "ComponentsView.stepper") {
                 StepperView()
+            } else if componentName == String(localized: "ComponentsView.picker") {
+                PickerView()
             } else {
                 VStack {
                     Text(componentName)
