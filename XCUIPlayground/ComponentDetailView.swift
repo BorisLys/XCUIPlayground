@@ -4,13 +4,19 @@ struct ComponentDetailView: View {
     let componentName: String
     
     var body: some View {
-        VStack {
-            Text(componentName)
-                .font(.largeTitle)
-                .padding()
-            
-            Text(String(localized: "ComponentDetailView.details"))
-                .foregroundColor(.secondary)
+        Group {
+            if componentName == String(localized: "ComponentsView.button") {
+                ButtonView()
+            } else {
+                VStack {
+                    Text(componentName)
+                        .font(.largeTitle)
+                        .padding()
+                    
+                    Text(String(localized: "ComponentDetailView.details"))
+                        .foregroundColor(.secondary)
+                }
+            }
         }
         .navigationTitle(componentName)
         .navigationBarTitleDisplayMode(.inline)
