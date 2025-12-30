@@ -1,10 +1,3 @@
-//
-//  ButtonView.swift
-//  XCUIPlayground
-//
-//  Created by Борис Лысиков on 30.12.2025.
-//
-
 import SwiftUI
 
 struct ButtonView: View {
