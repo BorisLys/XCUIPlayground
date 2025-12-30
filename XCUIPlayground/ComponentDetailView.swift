@@ -15,6 +15,10 @@ struct ComponentDetailView: View {
                 StepperView()
             } else if componentName == String(localized: "ComponentsView.picker") {
                 PickerView()
+            } else if componentName == String(localized: "ComponentsView.toggle") {
+                ToggleView()
+            } else if componentName == String(localized: "ComponentsView.alert") {
+                AlertView()
             } else {
                 VStack {
                     Text(componentName)

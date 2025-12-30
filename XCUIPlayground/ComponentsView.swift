@@ -6,7 +6,9 @@ struct ComponentsView: View {
         String(localized: "ComponentsView.inputField"),
         String(localized: "ComponentsView.slider"),
         String(localized: "ComponentsView.stepper"),
-        String(localized: "ComponentsView.picker")
+        String(localized: "ComponentsView.picker"),
+        String(localized: "ComponentsView.toggle"),
+        String(localized: "ComponentsView.alert")
     ]
     
     var body: some View {

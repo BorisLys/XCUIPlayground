@@ -13,9 +13,9 @@ struct ContentView: View {
                     Label(String(localized: "ContentView.flowTab"), systemImage: "arrow.triangle.branch")
                 }
             
-            StatesView()
+            PermissionView()
                 .tabItem {
-                    Label(String(localized: "ContentView.statesTab"), systemImage: "circle.grid.3x3")
+                    Label(String(localized: "ContentView.permissionTab"), systemImage: "lock.shield")
                 }
         }
     }
