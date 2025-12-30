@@ -9,6 +9,10 @@ struct ComponentDetailView: View {
                 ButtonView()
             } else if componentName == String(localized: "ComponentsView.inputField") {
                 InputFieldView()
+            } else if componentName == String(localized: "ComponentsView.slider") {
+                SliderView()
+            } else if componentName == String(localized: "ComponentsView.stepper") {
+                StepperView()
             } else {
                 VStack {
                     Text(componentName)

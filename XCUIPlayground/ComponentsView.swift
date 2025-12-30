@@ -4,7 +4,8 @@ struct ComponentsView: View {
     let components = [
         String(localized: "ComponentsView.button"),
         String(localized: "ComponentsView.inputField"),
-        String(localized: "ComponentsView.card")
+        String(localized: "ComponentsView.slider"),
+        String(localized: "ComponentsView.stepper")
     ]
     
     var body: some View {
