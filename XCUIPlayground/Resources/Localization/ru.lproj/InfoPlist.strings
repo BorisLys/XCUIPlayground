@@ -1,0 +1,27 @@
+/* Location (Always) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" =
+"Мы используем геолокацию, чтобы предоставлять функции, которым требуется доступ к местоположению в фоновом режиме.";
+
+/* Microphone */
+"NSMicrophoneUsageDescription" =
+"Нам нужен доступ к микрофону для записи аудио внутри приложения.";
+
+/* Bluetooth */
+"NSBluetoothAlwaysUsageDescription" =
+"Доступ к Bluetooth необходим для подключения к находящимся поблизости устройствам.";
+
+/* Calendar */
+"NSCalendarsUsageDescription" =
+"Нам нужен доступ к календарю, чтобы добавлять события.";
+
+/* Contacts */
+"NSContactsUsageDescription" =
+"Нам нужен доступ к вашим контактам, чтобы помочь вам связаться с людьми, которых вы знаете.";
+
+/* Motion */
+"NSMotionUsageDescription" =
+"Данные о движении используются для улучшения функций, связанных с активностью.";
+
+/* Face ID / Touch ID */
+"NSFaceIDUsageDescription" =
+"Face ID используется для безопасной аутентификации в приложении.";

@@ -1,0 +1,20 @@
+/* Location (Always) */
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "We use your location to provide features that require background location access.";
+
+/* Microphone */
+"NSMicrophoneUsageDescription" = "We need access to the microphone to record audio inside the app.";
+
+/* Bluetooth */
+"NSBluetoothAlwaysUsageDescription" = "Bluetooth access is required to connect to nearby devices.";
+
+/* Calendar */
+"NSCalendarsUsageDescription" = "We need access to your calendar to add events.";
+
+/* Contacts */
+"NSContactsUsageDescription" = "We need access to your contacts to help you connect with people you know.";
+
+/* Motion */
+"NSMotionUsageDescription" = "Motion data is used to improve activity-based features.";
+
+/* Face ID / Touch ID */
+"NSFaceIDUsageDescription" = "Face ID is used to securely authenticate you in the app.";
