@@ -1,27 +1,55 @@
-/* Location (Always) */
+/* Location — When In Use */
+"NSLocationWhenInUseUsageDescription" =
+"Мы используем геолокацию, чтобы показать ваше местоположение на карте.";
+
+/* Location — Always */
 "NSLocationAlwaysAndWhenInUseUsageDescription" =
-"Мы используем геолокацию, чтобы предоставлять функции, которым требуется доступ к местоположению в фоновом режиме.";
+"Мы используем геолокацию для функций, которым требуется доступ к местоположению в фоновом режиме.";
+
+/* Camera */
+"NSCameraUsageDescription" =
+"Нам нужен доступ к камере для съёмки фото внутри приложения.";
+
+/* Photo Library */
+"NSPhotoLibraryUsageDescription" =
+"Нам нужен доступ к галерее, чтобы вы могли выбрать фотографию.";
+
+/* Photo Library — Add Only */
+"NSPhotoLibraryAddUsageDescription" =
+"Нам нужен доступ к галерее, чтобы сохранять фотографии.";
 
 /* Microphone */
 "NSMicrophoneUsageDescription" =
-"Нам нужен доступ к микрофону для записи аудио внутри приложения.";
+"Нам нужен доступ к микрофону для записи аудио.";
+
+/* Contacts */
+"NSContactsUsageDescription" =
+"Нам нужен доступ к контактам, чтобы помочь вам связаться с людьми, которых вы знаете.";
+
+/* Calendars */
+"NSCalendarsUsageDescription" =
+"Нам нужен доступ к календарю, чтобы добавлять события.";
+
+/* Reminders */
+"NSRemindersUsageDescription" =
+"Нам нужен доступ к напоминаниям для управления задачами.";
 
 /* Bluetooth */
 "NSBluetoothAlwaysUsageDescription" =
 "Доступ к Bluetooth необходим для подключения к находящимся поблизости устройствам.";
 
-/* Calendar */
-"NSCalendarsUsageDescription" =
-"Нам нужен доступ к календарю, чтобы добавлять события.";
-
-/* Contacts */
-"NSContactsUsageDescription" =
-"Нам нужен доступ к вашим контактам, чтобы помочь вам связаться с людьми, которых вы знаете.";
-
-/* Motion */
+/* Motion & Fitness */
 "NSMotionUsageDescription" =
 "Данные о движении используются для улучшения функций, связанных с активностью.";
 
 /* Face ID / Touch ID */
 "NSFaceIDUsageDescription" =
 "Face ID используется для безопасной аутентификации в приложении.";
+
+/* Tracking (ATT) */
+"NSUserTrackingUsageDescription" =
+"Это помогает показывать более релевантный контент и измерять эффективность рекламы.";
+
+/* Notifications */
+"NSUserNotificationUsageDescription" =
+"Мы используем уведомления, чтобы информировать вас о важных событиях.";

@@ -1,20 +1,55 @@
-/* Location (Always) */
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "We use your location to provide features that require background location access.";
+/* Location — When In Use */
+"NSLocationWhenInUseUsageDescription" =
+"We use your location to show it on the map and provide location-based features.";
+
+/* Location — Always */
+"NSLocationAlwaysAndWhenInUseUsageDescription" =
+"We use your location for features that require background location access.";
+
+/* Camera */
+"NSCameraUsageDescription" =
+"We need access to the camera so you can take photos inside the app.";
+
+/* Photo Library */
+"NSPhotoLibraryUsageDescription" =
+"We need access to your photo library so you can select photos.";
+
+/* Photo Library — Add Only */
+"NSPhotoLibraryAddUsageDescription" =
+"We need access to your photo library to save photos.";
 
 /* Microphone */
-"NSMicrophoneUsageDescription" = "We need access to the microphone to record audio inside the app.";
-
-/* Bluetooth */
-"NSBluetoothAlwaysUsageDescription" = "Bluetooth access is required to connect to nearby devices.";
-
-/* Calendar */
-"NSCalendarsUsageDescription" = "We need access to your calendar to add events.";
+"NSMicrophoneUsageDescription" =
+"We need access to the microphone to record audio.";
 
 /* Contacts */
-"NSContactsUsageDescription" = "We need access to your contacts to help you connect with people you know.";
+"NSContactsUsageDescription" =
+"We need access to your contacts to help you connect with people you know.";
 
-/* Motion */
-"NSMotionUsageDescription" = "Motion data is used to improve activity-based features.";
+/* Calendars */
+"NSCalendarsUsageDescription" =
+"We need access to your calendar to add events.";
+
+/* Reminders */
+"NSRemindersUsageDescription" =
+"We need access to reminders to manage tasks.";
+
+/* Bluetooth */
+"NSBluetoothAlwaysUsageDescription" =
+"Bluetooth access is required to connect to nearby devices.";
+
+/* Motion & Fitness */
+"NSMotionUsageDescription" =
+"Motion data is used to improve activity-related features.";
 
 /* Face ID / Touch ID */
-"NSFaceIDUsageDescription" = "Face ID is used to securely authenticate you in the app.";
+"NSFaceIDUsageDescription" =
+"Face ID is used to securely authenticate you in the app.";
+
+/* Tracking (ATT) */
+"NSUserTrackingUsageDescription" =
+"This helps us provide more relevant content and measure advertising performance.";
+
+/* Notifications */
+"NSUserNotificationUsageDescription" =
+"We use notifications to keep you informed about important updates.";
