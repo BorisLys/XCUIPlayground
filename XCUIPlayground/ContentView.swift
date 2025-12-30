@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  XCUIPlayground
-//
-//  Created by Борис Лысиков on 30.12.2025.
-//
-
 import SwiftUI
 
 struct ContentView: View {
@@ -12,17 +5,17 @@ struct ContentView: View {
         TabView {
             ComponentsView()
                 .tabItem {
-                    Label("Components", systemImage: "square.grid.2x2")
+                    Label(String(localized: "ContentView.componentsTab"), systemImage: "square.grid.2x2")
                 }
             
             FlowView()
                 .tabItem {
-                    Label("Flow", systemImage: "arrow.triangle.branch")
+                    Label(String(localized: "ContentView.flowTab"), systemImage: "arrow.triangle.branch")
                 }
             
             StatesView()
                 .tabItem {
-                    Label("States", systemImage: "circle.grid.3x3")
+                    Label(String(localized: "ContentView.statesTab"), systemImage: "circle.grid.3x3")
                 }
         }
     }

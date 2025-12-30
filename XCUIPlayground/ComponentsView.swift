@@ -1,17 +1,10 @@
-//
-//  ComponentsView.swift
-//  XCUIPlayground
-//
-//  Created by Борис Лысиков on 30.12.2025.
-//
-
 import SwiftUI
 
 struct ComponentsView: View {
     let components = [
-        "Кнопка",
-        "Поле ввода",
-        "Карточка"
+        String(localized: "ComponentsView.button"),
+        String(localized: "ComponentsView.inputField"),
+        String(localized: "ComponentsView.card")
     ]
     
     var body: some View {
@@ -21,7 +14,7 @@ struct ComponentsView: View {
                     Text(component)
                 }
             }
-            .navigationTitle("Components")
+            .navigationTitle(String(localized: "ComponentsView.title"))
         }
     }
 }

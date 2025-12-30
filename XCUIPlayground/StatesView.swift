@@ -1,24 +1,17 @@
-//
-//  StatesView.swift
-//  XCUIPlayground
-//
-//  Created by Борис Лысиков on 30.12.2025.
-//
-
 import SwiftUI
 
 struct StatesView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("States")
+                Text(String(localized: "StatesView.title"))
                     .font(.largeTitle)
                     .padding()
                 
-                Text("Экран States")
+                Text(String(localized: "StatesView.description"))
                     .foregroundColor(.secondary)
             }
-            .navigationTitle("States")
+            .navigationTitle(String(localized: "StatesView.title"))
         }
     }
 }

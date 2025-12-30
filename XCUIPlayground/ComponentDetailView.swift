@@ -1,10 +1,3 @@
-//
-//  ComponentDetailView.swift
-//  XCUIPlayground
-//
-//  Created by Борис Лысиков on 30.12.2025.
-//
-
 import SwiftUI
 
 struct ComponentDetailView: View {
@@ -16,7 +9,7 @@ struct ComponentDetailView: View {
                 .font(.largeTitle)
                 .padding()
             
-            Text("Детали компонента")
+            Text(String(localized: "ComponentDetailView.details"))
                 .foregroundColor(.secondary)
         }
         .navigationTitle(componentName)

@@ -1,24 +1,17 @@
-//
-//  FlowView.swift
-//  XCUIPlayground
-//
-//  Created by Борис Лысиков on 30.12.2025.
-//
-
 import SwiftUI
 
 struct FlowView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Flow")
+                Text(String(localized: "FlowView.title"))
                     .font(.largeTitle)
                     .padding()
                 
-                Text("Экран Flow")
+                Text(String(localized: "FlowView.description"))
                     .foregroundColor(.secondary)
             }
-            .navigationTitle("Flow")
+            .navigationTitle(String(localized: "FlowView.title"))
         }
     }
 }
