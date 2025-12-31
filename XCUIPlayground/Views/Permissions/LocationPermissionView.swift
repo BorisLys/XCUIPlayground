@@ -155,3 +155,4 @@ struct LocationPermissionView: View {
         LocationPermissionView()
     }
 }
+                 

@@ -12,6 +12,7 @@ struct PermissionItem: Identifiable, Hashable {
 enum PermissionKind: Hashable {
     case photo
     case notifications
+    case contacts
     case location
 }
 
@@ -28,6 +29,12 @@ final class PermissionViewModel: ObservableObject {
             systemImage: "bell",
             color: .orange,
             kind: .notifications
+        ),
+        PermissionItem(
+            title: String(localized: "PermissionView.contactsCell"),
+            systemImage: "person.crop.circle",
+            color: .teal,
+            kind: .contacts
         ),
         PermissionItem(
             title: String(localized: "PermissionView.locationCell"),

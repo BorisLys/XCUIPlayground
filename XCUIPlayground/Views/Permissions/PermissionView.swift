@@ -29,6 +29,8 @@ struct PermissionView: View {
             PhotoPermissionView()
         case .notifications:
             NotificationPermissionView()
+        case .contacts:
+            ContactsPermissionView()
         case .location:
             LocationPermissionView()
         }
