@@ -25,7 +25,6 @@ struct LocationPermissionView: View {
                                 .foregroundColor(.white)
                                 .cornerRadius(10)
                         }
-                        .accessibilityIdentifier("location_request_permission_button")
                         .disabled(viewModel.authorizationStatus == .denied)
 
                         if viewModel.authorizationStatus == .notDetermined {
@@ -73,7 +72,6 @@ struct LocationPermissionView: View {
                         Map(coordinateRegion: $viewModel.region, showsUserLocation: true)
                             .frame(height: 300)
                             .cornerRadius(12)
-                            .accessibilityIdentifier("location_map")
 
                         HStack(spacing: 12) {
                             Button {
@@ -84,7 +82,6 @@ struct LocationPermissionView: View {
                                     .padding(.vertical, 10)
                             }
                             .buttonStyle(.bordered)
-                            .accessibilityIdentifier("location_refresh_button")
 
                             Button {
                                 viewModel.openInMaps()
@@ -94,7 +91,6 @@ struct LocationPermissionView: View {
                                     .padding(.vertical, 10)
                             }
                             .buttonStyle(.borderedProminent)
-                            .accessibilityIdentifier("location_open_in_maps_button")
                             .disabled(viewModel.currentLocation == nil)
                         }
 
@@ -105,12 +101,10 @@ struct LocationPermissionView: View {
                             }
                             .font(.caption)
                             .foregroundColor(.secondary)
-                            .accessibilityIdentifier("location_coords_label")
                         } else {
                             Text("Локация ещё не получена. Нажми «Обновить локацию» или подожди пару секунд.")
                                 .font(.caption)
                                 .foregroundColor(.secondary)
-                                .accessibilityIdentifier("location_waiting_label")
                         }
                     }
                     .padding()
@@ -118,23 +112,6 @@ struct LocationPermissionView: View {
                     .cornerRadius(12)
                 }
 
-                // MARK: - Debug status (полезно для UI-тестов)
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("Debug")
-                        .font(.headline)
-
-                    Text("Auth: \(viewModel.authorizationStatus.debugString)")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-
-                    Text("Error: \(viewModel.lastError ?? "—")")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                }
-                .padding()
-                .background(Color(.systemGray6).opacity(0.15))
-                .cornerRadius(12)
-                .accessibilityIdentifier("location_debug_panel")
             }
             .padding()
         }

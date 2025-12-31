@@ -18,8 +18,6 @@ struct FlowView: View {
                             }
                         }
                     }
-                } header: {
-                    Text(viewModel.descriptionText)
                 }
             }
             .navigationTitle(viewModel.title)

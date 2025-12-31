@@ -1,5 +1,6 @@
 import SwiftUI
 import Combine
+import Combine
 
 struct ComponentItem: Hashable, Identifiable {
     let name: String
@@ -21,6 +22,7 @@ enum ComponentKind: Hashable {
 }
 
 final class ComponentsViewModel: ObservableObject {
+    @Published var searchText: String = ""
     let items: [ComponentItem]
 
     init() {
@@ -34,5 +36,16 @@ final class ComponentsViewModel: ObservableObject {
             ComponentItem(name: String(localized: "ComponentsView.alert"), kind: .alert),
             ComponentItem(name: String(localized: "ComponentsView.modal"), kind: .modal)
         ]
+    }
+
+    var filteredItems: [ComponentItem] {
+        let query = searchText.trimmingCharacters(in: .whitespacesAndNewlines)
+        if query.isEmpty {
+            return items
+        }
+
+        return items.filter { item in
+            item.name.localizedCaseInsensitiveContains(query)
+        }
     }
 }
