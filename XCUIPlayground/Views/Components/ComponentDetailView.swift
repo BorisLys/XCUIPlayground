@@ -24,6 +24,8 @@ struct ComponentDetailView: View {
                 ToggleView()
             case .alert:
                 AlertView()
+            case .modal:
+                ModalView()
             case .unknown:
                 VStack {
                     Text(viewModel.title)
