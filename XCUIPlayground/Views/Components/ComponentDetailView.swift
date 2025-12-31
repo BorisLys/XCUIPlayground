@@ -26,6 +26,10 @@ struct ComponentDetailView: View {
                 AlertView()
             case .modal:
                 ModalView()
+            case .webView:
+                WebViewComponentView()
+            case .safariView:
+                SafariViewComponentView()
             case .unknown:
                 VStack {
                     Text(viewModel.title)

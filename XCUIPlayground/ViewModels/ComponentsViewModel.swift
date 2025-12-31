@@ -18,6 +18,8 @@ enum ComponentKind: Hashable {
     case toggle
     case alert
     case modal
+    case webView
+    case safariView
     case unknown
 }
 
@@ -34,7 +36,9 @@ final class ComponentsViewModel: ObservableObject {
             ComponentItem(name: String(localized: "ComponentsView.picker"), kind: .picker),
             ComponentItem(name: String(localized: "ComponentsView.toggle"), kind: .toggle),
             ComponentItem(name: String(localized: "ComponentsView.alert"), kind: .alert),
-            ComponentItem(name: String(localized: "ComponentsView.modal"), kind: .modal)
+            ComponentItem(name: String(localized: "ComponentsView.modal"), kind: .modal),
+            ComponentItem(name: String(localized: "ComponentsView.webView"), kind: .webView),
+            ComponentItem(name: String(localized: "ComponentsView.safariView"), kind: .safariView)
         ]
     }
 
