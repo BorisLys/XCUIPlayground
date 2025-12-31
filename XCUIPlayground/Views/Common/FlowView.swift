@@ -5,15 +5,32 @@ struct FlowView: View {
 
     var body: some View {
         NavigationView {
-            VStack {
-                Text(viewModel.title)
-                    .font(.largeTitle)
-                    .padding()
-                
-                Text(viewModel.descriptionText)
-                    .foregroundColor(.secondary)
+            List {
+                Section {
+                    ForEach(viewModel.items) { item in
+                        NavigationLink(destination: destinationView(for: item.kind)) {
+                            VStack(alignment: .leading, spacing: 4) {
+                                Text(item.title)
+                                    .font(.body)
+                                Text(item.subtitle)
+                                    .font(.caption)
+                                    .foregroundColor(.secondary)
+                            }
+                        }
+                    }
+                } header: {
+                    Text(viewModel.descriptionText)
+                }
             }
             .navigationTitle(viewModel.title)
+        }
+    }
+
+    @ViewBuilder
+    private func destinationView(for kind: FlowKind) -> some View {
+        switch kind {
+        case .biometricAuth:
+            BiometricAuthView()
         }
     }
 }
