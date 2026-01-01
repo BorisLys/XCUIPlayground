@@ -91,7 +91,7 @@ struct NotificationPermissionView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         NotificationPermissionView()
     }
 }

@@ -47,7 +47,7 @@ struct ComponentDetailView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         ComponentDetailView(item: ComponentItem(name: "Кнопка", kind: .button))
     }
 }

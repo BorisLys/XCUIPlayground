@@ -66,7 +66,7 @@ struct ToggleView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         ToggleView()
             .navigationTitle("Toggle")
     }

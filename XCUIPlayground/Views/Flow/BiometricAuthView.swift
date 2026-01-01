@@ -101,7 +101,7 @@ struct BiometricAuthView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         BiometricAuthView()
     }
 }

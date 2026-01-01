@@ -99,7 +99,7 @@ struct PickerView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         PickerView()
             .navigationTitle("Picker")
     }

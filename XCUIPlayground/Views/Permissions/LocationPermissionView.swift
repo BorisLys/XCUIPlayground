@@ -128,7 +128,7 @@ struct LocationPermissionView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         LocationPermissionView()
     }
 }

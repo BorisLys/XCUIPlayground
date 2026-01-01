@@ -90,7 +90,7 @@ struct ButtonView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         ButtonView()
             .navigationTitle("Button")
     }

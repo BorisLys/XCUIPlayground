@@ -4,7 +4,7 @@ struct StatesView: View {
     @StateObject private var viewModel = StatesViewModel()
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Text(viewModel.title)
                     .font(.largeTitle)

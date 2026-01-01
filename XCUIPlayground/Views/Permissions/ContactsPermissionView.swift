@@ -136,7 +136,7 @@ struct ContactsPermissionView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         ContactsPermissionView()
     }
 }

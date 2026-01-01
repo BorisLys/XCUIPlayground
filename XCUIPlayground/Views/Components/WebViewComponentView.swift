@@ -38,7 +38,7 @@ private struct WebViewContainer: UIViewRepresentable {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         WebViewComponentView()
             .navigationTitle("WKWebView")
     }

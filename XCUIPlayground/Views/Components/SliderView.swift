@@ -59,7 +59,7 @@ struct SliderView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         SliderView()
             .navigationTitle("Slider")
     }

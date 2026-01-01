@@ -111,7 +111,7 @@ private struct ModalContentView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         ModalView()
             .navigationTitle("Modal")
     }

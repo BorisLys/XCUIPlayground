@@ -45,7 +45,7 @@ struct StepperView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         StepperView()
             .navigationTitle("Stepper")
     }
