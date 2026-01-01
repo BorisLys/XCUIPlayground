@@ -32,7 +32,7 @@ private struct SafariView: UIViewControllerRepresentable {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         SafariViewComponentView()
             .navigationTitle("SFSafariViewController")
     }

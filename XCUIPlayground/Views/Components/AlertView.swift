@@ -144,7 +144,7 @@ struct AlertView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         AlertView()
             .navigationTitle("Alert")
     }

@@ -117,7 +117,7 @@ struct PhotoPermissionView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         PhotoPermissionView()
     }
 }

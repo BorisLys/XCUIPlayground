@@ -2,12 +2,6 @@ import SwiftUI
 import Combine
 import Contacts
 
-struct ContactItem: Identifiable, Hashable {
-    let id: String
-    let name: String
-    let details: String?
-}
-
 final class ContactsPermissionViewModel: ObservableObject {
     private let store = CNContactStore()
 

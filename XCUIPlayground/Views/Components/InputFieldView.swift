@@ -187,7 +187,7 @@ struct InputFieldView: View {
 }
 
 #Preview {
-    NavigationView {
+    NavigationStack {
         InputFieldView()
             .navigationTitle("Input Fields")
     }

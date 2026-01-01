@@ -2,12 +2,15 @@ import SwiftUI
 
 struct PermissionView: View {
     @StateObject private var viewModel = PermissionViewModel()
+    @State private var selectedItem: PermissionItem?
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 ForEach(viewModel.items) { item in
-                    NavigationLink(destination: destinationView(for: item.kind)) {
+                    Button {
+                        selectedItem = item
+                    } label: {
                         HStack {
                             Image(systemName: item.systemImage)
                                 .foregroundColor(item.color)
@@ -19,6 +22,21 @@ struct PermissionView: View {
                 }
             }
             .navigationTitle(String(localized: "PermissionView.title"))
+            .fullScreenCover(item: $selectedItem) { item in
+                NavigationStack {
+                    destinationView(for: item.kind)
+                        .toolbar {
+                            ToolbarItem(placement: .navigationBarTrailing) {
+                                Button {
+                                    selectedItem = nil
+                                } label: {
+                                    Image(systemName: "xmark")
+                                }
+                            }
+                        }
+                        .interactiveDismissDisabled(false)
+                }
+            }
         }
     }
 

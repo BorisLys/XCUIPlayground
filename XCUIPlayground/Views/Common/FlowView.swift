@@ -4,7 +4,7 @@ struct FlowView: View {
     @StateObject private var viewModel = FlowViewModel()
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 Section {
                     ForEach(viewModel.items) { item in
