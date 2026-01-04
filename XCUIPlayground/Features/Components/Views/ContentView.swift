@@ -11,7 +11,7 @@ struct ContentView: View {
                 }
                 .tag(ContentViewModel.Tab.components)
             
-            FlowView()
+            ScenariosView()
                 .tabItem {
                     Label(String(localized: "ContentView.flowTab"), systemImage: "arrow.triangle.branch")
                 }

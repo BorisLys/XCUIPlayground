@@ -1,7 +1,7 @@
 import SwiftUI
 import Combine
 
-final class FlowViewModel: ObservableObject {
+final class ScenariosViewModel: ObservableObject {
     let title = String(localized: "FlowView.title")
 
     let items: [FlowItem] = [

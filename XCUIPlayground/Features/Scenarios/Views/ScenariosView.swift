@@ -1,7 +1,7 @@
 import SwiftUI
 
-struct FlowView: View {
-    @StateObject private var viewModel = FlowViewModel()
+struct ScenariosView: View {
+    @StateObject private var viewModel = ScenariosViewModel()
 
     var body: some View {
         NavigationStack {
@@ -34,5 +34,5 @@ struct FlowView: View {
 }
 
 #Preview {
-    FlowView()
+    ScenariosView()
 }
