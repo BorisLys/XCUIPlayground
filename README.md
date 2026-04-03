@@ -6,7 +6,7 @@ XCUIPlayground is a focused sandbox for building reliable UI tests against reali
 It includes deterministic screens and common product flows so you can prototype selectors, synchronization logic, and end-to-end test scenarios with less flakiness.
 
 ## Features
-- SwiftUI + MVVM architecture optimized for UI testing
+- SwiftUI + MVVM architecture 
 - Deterministic UI states for reproducible tests
 - Core component playground:
   - Buttons, inputs, toggles, sliders, steppers, pickers
