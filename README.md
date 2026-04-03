@@ -5,8 +5,6 @@ A SwiftUI-based iOS playground for learning and practicing UI testing with [XCUI
 XCUIPlayground is a focused sandbox for building reliable UI tests against realistic app behavior.  
 It includes deterministic screens and common product flows so you can prototype selectors, synchronization logic, and end-to-end test scenarios with less flakiness.
 
-![XCUIPlayground Preview](docs/XCUIPlayground.png)
-
 ## Features
 - SwiftUI + MVVM architecture optimized for UI testing
 - Deterministic UI states for reproducible tests
