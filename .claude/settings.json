@@ -1,0 +1,7 @@
+{
+  "enabledPlugins": {
+    "time@ai-hub": true,
+    "testops@ai-hub": true,
+    "kaiten@ai-hub": true
+  }
+}
