@@ -29,6 +29,8 @@ struct ScenariosView: View {
         switch kind {
         case .biometricAuth:
             BiometricAuthView()
+        case .login:
+            LoginScenarioView()
         }
     }
 }

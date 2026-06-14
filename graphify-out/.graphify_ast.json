@@ -1,0 +1,4755 @@
+{
+  "nodes": [
+    {
+      "id": "xcuiplaygroundapp_swift",
+      "label": "XCUIPlaygroundApp.swift",
+      "file_type": "code",
+      "source_file": "XCUIPlaygroundApp.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "xcuiplayground_xcuiplaygroundapp_xcuiplaygroundapp",
+      "label": "XCUIPlaygroundApp",
+      "file_type": "code",
+      "source_file": "XCUIPlaygroundApp.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "app",
+      "label": "App",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_permissions_viewmodels_permissionviewmodel_swift",
+      "label": "PermissionViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PermissionViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_permissionviewmodel_permissionviewmodel",
+      "label": "PermissionViewModel",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PermissionViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_permissions_viewmodels_contactspermissionviewmodel_swift",
+      "label": "ContactsPermissionViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel",
+      "label": "ContactsPermissionViewModel",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_checkauthorization",
+      "label": ".checkAuthorization()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L18"
+    },
+    {
+      "id": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_requestaccess",
+      "label": ".requestAccess()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L25"
+    },
+    {
+      "id": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_opensettings",
+      "label": ".openSettings()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L40"
+    },
+    {
+      "id": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_fetchcontacts",
+      "label": ".fetchContacts()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L46"
+    },
+    {
+      "id": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "label": "LocationPermissionViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "label": "LocationPermissionViewModel",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L6"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_init",
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L23"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_checkpermission",
+      "label": ".checkPermission()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L38"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_requestpermission",
+      "label": ".requestPermission()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L45"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_refreshlocation",
+      "label": ".refreshLocation()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L49"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_opensettings",
+      "label": ".openSettings()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L53"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_openinmaps",
+      "label": ".openInMaps()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L58"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "label": "LocationManager",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L80"
+    },
+    {
+      "id": "nsobject",
+      "label": "NSObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "cllocationmanagerdelegate",
+      "label": "CLLocationManagerDelegate",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationmanager_init",
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L97"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationmanager_requestpermission",
+      "label": ".requestPermission()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L103"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationmanager_refreshlocation",
+      "label": ".refreshLocation()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L107"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationmanager_locationmanagerdidchangeauthorization",
+      "label": ".locationManagerDidChangeAuthorization()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L112"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_locationmanager_locationmanager",
+      "label": ".locationManager()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L119"
+    },
+    {
+      "id": "viewmodels_locationpermissionviewmodel_clauthorizationstatus",
+      "label": "CLAuthorizationStatus",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L136"
+    },
+    {
+      "id": "features_permissions_viewmodels_photopermissionviewmodel_swift",
+      "label": "PhotoPermissionViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "label": "PhotoPermissionViewModel",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_checkphotostatus",
+      "label": ".checkPhotoStatus()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_requestphotopermission",
+      "label": ".requestPhotoPermission()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L20"
+    },
+    {
+      "id": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_opensettings",
+      "label": ".openSettings()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L35"
+    },
+    {
+      "id": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_loadphoto",
+      "label": ".loadPhoto()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L41"
+    },
+    {
+      "id": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_loadsavedphoto",
+      "label": ".loadSavedPhoto()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L61"
+    },
+    {
+      "id": "features_permissions_viewmodels_notificationpermissionviewmodel_swift",
+      "label": "NotificationPermissionViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel",
+      "label": "NotificationPermissionViewModel",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_checknotificationstatus",
+      "label": ".checkNotificationStatus()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L10"
+    },
+    {
+      "id": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_requestnotificationpermission",
+      "label": ".requestNotificationPermission()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L18"
+    },
+    {
+      "id": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_opensettings",
+      "label": ".openSettings()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L36"
+    },
+    {
+      "id": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_sendtestnotification",
+      "label": ".sendTestNotification()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L42"
+    },
+    {
+      "id": "features_permissions_models_contactmodels_swift",
+      "label": "ContactModels.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/ContactModels.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_contactmodels_contactitem",
+      "label": "ContactItem",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/ContactModels.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "identifiable",
+      "label": "Identifiable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "hashable",
+      "label": "Hashable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_permissions_models_permissionmodels_swift",
+      "label": "PermissionModels.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_permissionmodels_permissionitem",
+      "label": "PermissionItem",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "identifiable",
+      "label": "Identifiable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "hashable",
+      "label": "Hashable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "models_permissionmodels_permissionkind",
+      "label": "PermissionKind",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "models_permissionmodels_permissionkind_photo",
+      "label": "photo",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L12"
+    },
+    {
+      "id": "models_permissionmodels_permissionkind_notifications",
+      "label": "notifications",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L13"
+    },
+    {
+      "id": "models_permissionmodels_permissionkind_contacts",
+      "label": "contacts",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L14"
+    },
+    {
+      "id": "models_permissionmodels_permissionkind_location",
+      "label": "location",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L15"
+    },
+    {
+      "id": "features_permissions_views_photopermissionview_swift",
+      "label": "PhotoPermissionView.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/PhotoPermissionView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_photopermissionview_photopermissionview",
+      "label": "PhotoPermissionView",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/PhotoPermissionView.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_permissions_views_notificationpermissionview_swift",
+      "label": "NotificationPermissionView.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/NotificationPermissionView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_notificationpermissionview_notificationpermissionview",
+      "label": "NotificationPermissionView",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/NotificationPermissionView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_permissions_views_permissionview_swift",
+      "label": "PermissionView.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_permissionview_permissionview",
+      "label": "PermissionView",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_permissionview_permissionview_destinationview",
+      "label": ".destinationView()",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L43"
+    },
+    {
+      "id": "features_permissions_views_locationpermissionview_swift",
+      "label": "LocationPermissionView.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/LocationPermissionView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_locationpermissionview_locationpermissionview",
+      "label": "LocationPermissionView",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/LocationPermissionView.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_permissions_views_contactspermissionview_swift",
+      "label": "ContactsPermissionView.swift",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/ContactsPermissionView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_contactspermissionview_contactspermissionview",
+      "label": "ContactsPermissionView",
+      "file_type": "code",
+      "source_file": "Features/Permissions/Views/ContactsPermissionView.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_viewmodels_sliderviewmodel_swift",
+      "label": "SliderViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/SliderViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_sliderviewmodel_sliderviewmodel",
+      "label": "SliderViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/SliderViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_viewmodels_stepperviewmodel_swift",
+      "label": "StepperViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/StepperViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_stepperviewmodel_stepperviewmodel",
+      "label": "StepperViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/StepperViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_viewmodels_alertviewmodel_swift",
+      "label": "AlertViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_alertviewmodel_alertviewmodel",
+      "label": "AlertViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_alertviewmodel_alertviewmodel_showtextfieldsavedtoast",
+      "label": ".showTextFieldSavedToast()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L13"
+    },
+    {
+      "id": "viewmodels_alertviewmodel_alertviewmodel_resettextfield",
+      "label": ".resetTextField()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L24"
+    },
+    {
+      "id": "features_components_viewmodels_componentsviewmodel_swift",
+      "label": "ComponentsViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_componentsviewmodel_componentsviewmodel",
+      "label": "ComponentsViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_componentsviewmodel_componentsviewmodel_init",
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L8"
+    },
+    {
+      "id": "features_components_viewmodels_inputfieldviewmodel_swift",
+      "label": "InputFieldViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate",
+      "label": "FieldState",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "string",
+      "label": "String",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_idle",
+      "label": "idle",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_editing",
+      "label": "editing",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L6"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_valid",
+      "label": "valid",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_invalid",
+      "label": "invalid",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L8"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_loading",
+      "label": "loading",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L9"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_success",
+      "label": "success",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L10"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_error",
+      "label": "error",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_empty",
+      "label": "empty",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L12"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_fieldstate_results",
+      "label": "results",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L13"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "label": "InputFieldViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handleemailchange",
+      "label": ".handleEmailChange()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L36"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handlephonechange",
+      "label": ".handlePhoneChange()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L55"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handlepasswordchange",
+      "label": ".handlePasswordChange()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L69"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_continuetapped",
+      "label": ".continueTapped()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L79"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_bordercolor",
+      "label": ".borderColor()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L85"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_normalizephone",
+      "label": ".normalizePhone()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L94"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_validateemail",
+      "label": ".validateEmail()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L105"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_updatephonestate",
+      "label": ".updatePhoneState()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L118"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_normalizephonedigits",
+      "label": ".normalizePhoneDigits()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L133"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphone",
+      "label": ".formatPhone()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L143"
+    },
+    {
+      "id": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphonedigits",
+      "label": ".formatPhoneDigits()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L162"
+    },
+    {
+      "id": "features_components_viewmodels_buttonviewmodel_swift",
+      "label": "ButtonViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_buttonviewmodel_buttonviewmodel",
+      "label": "ButtonViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_buttonviewmodel_buttonviewmodel_toggletapped",
+      "label": ".toggleTapped()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L10"
+    },
+    {
+      "id": "viewmodels_buttonviewmodel_buttonviewmodel_startloading",
+      "label": ".startLoading()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L14"
+    },
+    {
+      "id": "features_components_viewmodels_webviewcomponentviewmodel_swift",
+      "label": "WebViewComponentViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/WebViewComponentViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_webviewcomponentviewmodel_webviewcomponentviewmodel",
+      "label": "WebViewComponentViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/WebViewComponentViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_viewmodels_modalviewmodel_swift",
+      "label": "ModalViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_modalviewmodel_modalviewmodel",
+      "label": "ModalViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_modalviewmodel_modalviewmodel_opensheet",
+      "label": ".openSheet()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L8"
+    },
+    {
+      "id": "viewmodels_modalviewmodel_modalviewmodel_openfullscreen",
+      "label": ".openFullScreen()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L12"
+    },
+    {
+      "id": "viewmodels_modalviewmodel_modalviewmodel_closesheet",
+      "label": ".closeSheet()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "viewmodels_modalviewmodel_modalviewmodel_closefullscreen",
+      "label": ".closeFullScreen()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L20"
+    },
+    {
+      "id": "features_components_viewmodels_toggleviewmodel_swift",
+      "label": "ToggleViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ToggleViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_toggleviewmodel_toggleviewmodel",
+      "label": "ToggleViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ToggleViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_viewmodels_contentviewmodel_swift",
+      "label": "ContentViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_contentviewmodel_contentviewmodel",
+      "label": "ContentViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_contentviewmodel_tab",
+      "label": "Tab",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "hashable",
+      "label": "Hashable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_contentviewmodel_tab_components",
+      "label": "components",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L6"
+    },
+    {
+      "id": "viewmodels_contentviewmodel_tab_flow",
+      "label": "flow",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "viewmodels_contentviewmodel_tab_permissions",
+      "label": "permissions",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L8"
+    },
+    {
+      "id": "features_components_viewmodels_componentdetailviewmodel_swift",
+      "label": "ComponentDetailViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_componentdetailviewmodel_componentdetailviewmodel",
+      "label": "ComponentDetailViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_componentdetailviewmodel_componentdetailviewmodel_init",
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "features_components_viewmodels_safariviewcomponentviewmodel_swift",
+      "label": "SafariViewComponentViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/SafariViewComponentViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_safariviewcomponentviewmodel_safariviewcomponentviewmodel",
+      "label": "SafariViewComponentViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/SafariViewComponentViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_viewmodels_pickerviewmodel_swift",
+      "label": "PickerViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_pickerviewmodel_pickerviewmodel",
+      "label": "PickerViewModel",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_pickerviewmodel_pickerviewmodel_formatdate",
+      "label": ".formatDate()",
+      "file_type": "code",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L13"
+    },
+    {
+      "id": "features_components_models_componentmodels_swift",
+      "label": "ComponentModels.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_componentmodels_componentitem",
+      "label": "ComponentItem",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "hashable",
+      "label": "Hashable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "identifiable",
+      "label": "Identifiable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "models_componentmodels_componentkind",
+      "label": "ComponentKind",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L10"
+    },
+    {
+      "id": "models_componentmodels_componentkind_button",
+      "label": "button",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "models_componentmodels_componentkind_inputfield",
+      "label": "inputField",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L12"
+    },
+    {
+      "id": "models_componentmodels_componentkind_slider",
+      "label": "slider",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L13"
+    },
+    {
+      "id": "models_componentmodels_componentkind_stepper",
+      "label": "stepper",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L14"
+    },
+    {
+      "id": "models_componentmodels_componentkind_picker",
+      "label": "picker",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L15"
+    },
+    {
+      "id": "models_componentmodels_componentkind_toggle",
+      "label": "toggle",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L16"
+    },
+    {
+      "id": "models_componentmodels_componentkind_alert",
+      "label": "alert",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L17"
+    },
+    {
+      "id": "models_componentmodels_componentkind_modal",
+      "label": "modal",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L18"
+    },
+    {
+      "id": "models_componentmodels_componentkind_webview",
+      "label": "webView",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L19"
+    },
+    {
+      "id": "models_componentmodels_componentkind_safariview",
+      "label": "safariView",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L20"
+    },
+    {
+      "id": "models_componentmodels_componentkind_unknown",
+      "label": "unknown",
+      "file_type": "code",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L21"
+    },
+    {
+      "id": "features_components_views_pickerview_swift",
+      "label": "PickerView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/PickerView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_pickerview_pickerview",
+      "label": "PickerView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/PickerView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_stepperview_swift",
+      "label": "StepperView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/StepperView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_stepperview_stepperview",
+      "label": "StepperView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/StepperView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_toggleview_swift",
+      "label": "ToggleView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ToggleView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_toggleview_toggleview",
+      "label": "ToggleView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ToggleView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_modalview_swift",
+      "label": "ModalView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_modalview_modalview",
+      "label": "ModalView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_modalview_modalcontentview",
+      "label": "ModalContentView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L72"
+    },
+    {
+      "id": "features_components_views_componentdetailview_swift",
+      "label": "ComponentDetailView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_componentdetailview_componentdetailview",
+      "label": "ComponentDetailView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_componentdetailview_componentdetailview_init",
+      "label": ".init()",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L6"
+    },
+    {
+      "id": "features_components_views_componentsview_swift",
+      "label": "ComponentsView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ComponentsView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_componentsview_componentsview",
+      "label": "ComponentsView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ComponentsView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_sliderview_swift",
+      "label": "SliderView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/SliderView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_sliderview_sliderview",
+      "label": "SliderView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/SliderView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_alertview_swift",
+      "label": "AlertView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/AlertView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_alertview_alertview",
+      "label": "AlertView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/AlertView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_inputfieldview_swift",
+      "label": "InputFieldView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/InputFieldView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_inputfieldview_inputfieldview",
+      "label": "InputFieldView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/InputFieldView.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_webviewcomponentview_swift",
+      "label": "WebViewComponentView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_webviewcomponentview_webviewcomponentview",
+      "label": "WebViewComponentView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_webviewcomponentview_webviewcontainer",
+      "label": "WebViewContainer",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L24"
+    },
+    {
+      "id": "uiviewrepresentable",
+      "label": "UIViewRepresentable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_webviewcomponentview_webviewcontainer_makeuiview",
+      "label": ".makeUIView()",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L27"
+    },
+    {
+      "id": "views_webviewcomponentview_webviewcontainer_updateuiview",
+      "label": ".updateUIView()",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L33"
+    },
+    {
+      "id": "features_components_views_safariviewcomponentview_swift",
+      "label": "SafariViewComponentView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_safariviewcomponentview_safariviewcomponentview",
+      "label": "SafariViewComponentView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_safariviewcomponentview_safariview",
+      "label": "SafariView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L24"
+    },
+    {
+      "id": "uiviewcontrollerrepresentable",
+      "label": "UIViewControllerRepresentable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_safariviewcomponentview_safariview_makeuiviewcontroller",
+      "label": ".makeUIViewController()",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L27"
+    },
+    {
+      "id": "views_safariviewcomponentview_safariview_updateuiviewcontroller",
+      "label": ".updateUIViewController()",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L31"
+    },
+    {
+      "id": "features_components_views_contentview_swift",
+      "label": "ContentView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ContentView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_contentview_contentview",
+      "label": "ContentView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ContentView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_components_views_buttonview_swift",
+      "label": "ButtonView.swift",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ButtonView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_buttonview_buttonview",
+      "label": "ButtonView",
+      "file_type": "code",
+      "source_file": "Features/Components/Views/ButtonView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_scenarios_viewmodels_scenariosviewmodel_swift",
+      "label": "ScenariosViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/ScenariosViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_scenariosviewmodel_scenariosviewmodel",
+      "label": "ScenariosViewModel",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/ScenariosViewModel.swift",
+      "source_location": "L4"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_scenarios_viewmodels_biometricauthviewmodel_swift",
+      "label": "BiometricAuthViewModel.swift",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthstate",
+      "label": "BiometricAuthState",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L5"
+    },
+    {
+      "id": "hashable",
+      "label": "Hashable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthstate_idle",
+      "label": "idle",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L6"
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthstate_success",
+      "label": "success",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L7"
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthstate_failure",
+      "label": "failure",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L8"
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthviewmodel",
+      "label": "BiometricAuthViewModel",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "observableobject",
+      "label": "ObservableObject",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_refreshavailability",
+      "label": ".refreshAvailability()",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L18"
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_authenticate",
+      "label": ".authenticate()",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L28"
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_availabilitymessage",
+      "label": ".availabilityMessage()",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L54"
+    },
+    {
+      "id": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_biometrylabel",
+      "label": ".biometryLabel()",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L72"
+    },
+    {
+      "id": "features_scenarios_models_flowmodels_swift",
+      "label": "FlowModels.swift",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "models_flowmodels_flowitem",
+      "label": "FlowItem",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "identifiable",
+      "label": "Identifiable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "hashable",
+      "label": "Hashable",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "models_flowmodels_flowkind",
+      "label": "FlowKind",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L10"
+    },
+    {
+      "id": "models_flowmodels_flowkind_biometricauth",
+      "label": "biometricAuth",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L11"
+    },
+    {
+      "id": "features_scenarios_views_biometricauthview_swift",
+      "label": "BiometricAuthView.swift",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Views/BiometricAuthView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_biometricauthview_biometricauthview",
+      "label": "BiometricAuthView",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Views/BiometricAuthView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "features_scenarios_views_scenariosview_swift",
+      "label": "ScenariosView.swift",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L1"
+    },
+    {
+      "id": "views_scenariosview_scenariosview",
+      "label": "ScenariosView",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L3"
+    },
+    {
+      "id": "view",
+      "label": "View",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": ""
+    },
+    {
+      "id": "views_scenariosview_scenariosview_destinationview",
+      "label": ".destinationView()",
+      "file_type": "code",
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L27"
+    }
+  ],
+  "edges": [
+    {
+      "source": "xcuiplaygroundapp_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "XCUIPlaygroundApp.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "xcuiplaygroundapp_swift",
+      "target": "xcuiplayground_xcuiplaygroundapp_xcuiplaygroundapp",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "XCUIPlaygroundApp.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "xcuiplayground_xcuiplaygroundapp_xcuiplaygroundapp",
+      "target": "app",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "XCUIPlaygroundApp.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_permissionviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PermissionViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_permissionviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PermissionViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_permissionviewmodel_swift",
+      "target": "viewmodels_permissionviewmodel_permissionviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PermissionViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_permissionviewmodel_permissionviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PermissionViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_contactspermissionviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_contactspermissionviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_contactspermissionviewmodel_swift",
+      "target": "contacts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_contactspermissionviewmodel_swift",
+      "target": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel",
+      "target": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_checkauthorization",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel",
+      "target": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_requestaccess",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel",
+      "target": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_opensettings",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel",
+      "target": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_fetchcontacts",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_checkauthorization",
+      "target": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_fetchcontacts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_requestaccess",
+      "target": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_fetchcontacts",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "target": "mapkit",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "target": "corelocation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "target": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "target": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "target": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_checkpermission",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "target": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_requestpermission",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "target": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_refreshlocation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "target": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_opensettings",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel",
+      "target": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_openinmaps",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "nsobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "cllocationmanagerdelegate",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L80",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L97",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_requestpermission",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L103",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_refreshlocation",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L107",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_locationmanagerdidchangeauthorization",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L112",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_locationmanager",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L119",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_locationmanager",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L129",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_locationpermissionviewmodel_swift",
+      "target": "viewmodels_locationpermissionviewmodel_clauthorizationstatus",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L136",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_checkpermission",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_refreshlocation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_requestpermission",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_requestpermission",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationpermissionviewmodel_refreshlocation",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_refreshlocation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_locationpermissionviewmodel_locationmanager_locationmanagerdidchangeauthorization",
+      "target": "viewmodels_locationpermissionviewmodel_locationmanager_refreshlocation",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/LocationPermissionViewModel.swift",
+      "source_location": "L115",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_photopermissionviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_photopermissionviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_photopermissionviewmodel_swift",
+      "target": "photosui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_photopermissionviewmodel_swift",
+      "target": "photos",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_photopermissionviewmodel_swift",
+      "target": "uikit",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_photopermissionviewmodel_swift",
+      "target": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "target": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_checkphotostatus",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "target": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_requestphotopermission",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "target": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_opensettings",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "target": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_loadphoto",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel",
+      "target": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_loadsavedphoto",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_notificationpermissionviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_notificationpermissionviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_notificationpermissionviewmodel_swift",
+      "target": "usernotifications",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_viewmodels_notificationpermissionviewmodel_swift",
+      "target": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel",
+      "target": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_checknotificationstatus",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel",
+      "target": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_requestnotificationpermission",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel",
+      "target": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_opensettings",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel",
+      "target": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_sendtestnotification",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_requestnotificationpermission",
+      "target": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_checknotificationstatus",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_models_contactmodels_swift",
+      "target": "foundation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/ContactModels.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_models_contactmodels_swift",
+      "target": "models_contactmodels_contactitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/ContactModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_contactmodels_contactitem",
+      "target": "identifiable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/ContactModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_contactmodels_contactitem",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/ContactModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_models_permissionmodels_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_models_permissionmodels_swift",
+      "target": "models_permissionmodels_permissionitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_permissionmodels_permissionitem",
+      "target": "identifiable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_permissionmodels_permissionitem",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_models_permissionmodels_swift",
+      "target": "models_permissionmodels_permissionkind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "models_permissionmodels_permissionkind",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "models_permissionmodels_permissionkind",
+      "target": "models_permissionmodels_permissionkind_photo",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "models_permissionmodels_permissionkind",
+      "target": "models_permissionmodels_permissionkind_notifications",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "models_permissionmodels_permissionkind",
+      "target": "models_permissionmodels_permissionkind_contacts",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "models_permissionmodels_permissionkind",
+      "target": "models_permissionmodels_permissionkind_location",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Models/PermissionModels.swift",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_photopermissionview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PhotoPermissionView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_photopermissionview_swift",
+      "target": "photosui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PhotoPermissionView.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_photopermissionview_swift",
+      "target": "photos",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PhotoPermissionView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_photopermissionview_swift",
+      "target": "views_photopermissionview_photopermissionview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PhotoPermissionView.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "views_photopermissionview_photopermissionview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PhotoPermissionView.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_notificationpermissionview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/NotificationPermissionView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_notificationpermissionview_swift",
+      "target": "views_notificationpermissionview_notificationpermissionview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/NotificationPermissionView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_notificationpermissionview_notificationpermissionview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/NotificationPermissionView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_permissionview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_permissionview_swift",
+      "target": "views_permissionview_permissionview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_permissionview_permissionview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_permissionview_permissionview",
+      "target": "views_permissionview_permissionview_destinationview",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_locationpermissionview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/LocationPermissionView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_locationpermissionview_swift",
+      "target": "mapkit",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/LocationPermissionView.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_locationpermissionview_swift",
+      "target": "views_locationpermissionview_locationpermissionview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/LocationPermissionView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "views_locationpermissionview_locationpermissionview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/LocationPermissionView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_contactspermissionview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/ContactsPermissionView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_contactspermissionview_swift",
+      "target": "contacts",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/ContactsPermissionView.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_permissions_views_contactspermissionview_swift",
+      "target": "views_contactspermissionview_contactspermissionview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/ContactsPermissionView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "views_contactspermissionview_contactspermissionview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Permissions/Views/ContactsPermissionView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_sliderviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SliderViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_sliderviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SliderViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_sliderviewmodel_swift",
+      "target": "viewmodels_sliderviewmodel_sliderviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SliderViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_sliderviewmodel_sliderviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SliderViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_stepperviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/StepperViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_stepperviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/StepperViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_stepperviewmodel_swift",
+      "target": "viewmodels_stepperviewmodel_stepperviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/StepperViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_stepperviewmodel_stepperviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/StepperViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_alertviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_alertviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_alertviewmodel_swift",
+      "target": "viewmodels_alertviewmodel_alertviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_alertviewmodel_alertviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_alertviewmodel_alertviewmodel",
+      "target": "viewmodels_alertviewmodel_alertviewmodel_showtextfieldsavedtoast",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_alertviewmodel_alertviewmodel",
+      "target": "viewmodels_alertviewmodel_alertviewmodel_resettextfield",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/AlertViewModel.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_componentsviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_componentsviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_componentsviewmodel_swift",
+      "target": "viewmodels_componentsviewmodel_componentsviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_componentsviewmodel_componentsviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_componentsviewmodel_componentsviewmodel",
+      "target": "viewmodels_componentsviewmodel_componentsviewmodel_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_inputfieldviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_inputfieldviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_inputfieldviewmodel_swift",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "string",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_idle",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_editing",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_valid",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_invalid",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_loading",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_success",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_error",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_empty",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_fieldstate",
+      "target": "viewmodels_inputfieldviewmodel_fieldstate_results",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_inputfieldviewmodel_swift",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handleemailchange",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handlephonechange",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handlepasswordchange",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L69",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_continuetapped",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L79",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_bordercolor",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_normalizephone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L94",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_validateemail",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L105",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_updatephonestate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L118",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_normalizephonedigits",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L133",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphone",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L143",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphonedigits",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L162",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handleemailchange",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_validateemail",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handlephonechange",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphone",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L58",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_handlephonechange",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_updatephonestate",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_validateemail",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L114",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_updatephonestate",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_normalizephonedigits",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L122",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphone",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L150",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphone",
+      "target": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphonedigits",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L151",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_inputfieldviewmodel_inputfieldviewmodel_formatphonedigits",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/InputFieldViewModel.swift",
+      "source_location": "L169",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_buttonviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_buttonviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_buttonviewmodel_swift",
+      "target": "viewmodels_buttonviewmodel_buttonviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_buttonviewmodel_buttonviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_buttonviewmodel_buttonviewmodel",
+      "target": "viewmodels_buttonviewmodel_buttonviewmodel_toggletapped",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_buttonviewmodel_buttonviewmodel",
+      "target": "viewmodels_buttonviewmodel_buttonviewmodel_startloading",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ButtonViewModel.swift",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_webviewcomponentviewmodel_swift",
+      "target": "foundation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/WebViewComponentViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_webviewcomponentviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/WebViewComponentViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_webviewcomponentviewmodel_swift",
+      "target": "viewmodels_webviewcomponentviewmodel_webviewcomponentviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/WebViewComponentViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_webviewcomponentviewmodel_webviewcomponentviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/WebViewComponentViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_modalviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_modalviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_modalviewmodel_swift",
+      "target": "viewmodels_modalviewmodel_modalviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_modalviewmodel_modalviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_modalviewmodel_modalviewmodel",
+      "target": "viewmodels_modalviewmodel_modalviewmodel_opensheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_modalviewmodel_modalviewmodel",
+      "target": "viewmodels_modalviewmodel_modalviewmodel_openfullscreen",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_modalviewmodel_modalviewmodel",
+      "target": "viewmodels_modalviewmodel_modalviewmodel_closesheet",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_modalviewmodel_modalviewmodel",
+      "target": "viewmodels_modalviewmodel_modalviewmodel_closefullscreen",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ModalViewModel.swift",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_toggleviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ToggleViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_toggleviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ToggleViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_toggleviewmodel_swift",
+      "target": "viewmodels_toggleviewmodel_toggleviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ToggleViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_toggleviewmodel_toggleviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ToggleViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_contentviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_contentviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_contentviewmodel_swift",
+      "target": "viewmodels_contentviewmodel_contentviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contentviewmodel_contentviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_contentviewmodel_swift",
+      "target": "viewmodels_contentviewmodel_tab",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contentviewmodel_tab",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contentviewmodel_tab",
+      "target": "viewmodels_contentviewmodel_tab_components",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contentviewmodel_tab",
+      "target": "viewmodels_contentviewmodel_tab_flow",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contentviewmodel_tab",
+      "target": "viewmodels_contentviewmodel_tab_permissions",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ContentViewModel.swift",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_componentdetailviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_componentdetailviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_componentdetailviewmodel_swift",
+      "target": "viewmodels_componentdetailviewmodel_componentdetailviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_componentdetailviewmodel_componentdetailviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_componentdetailviewmodel_componentdetailviewmodel",
+      "target": "viewmodels_componentdetailviewmodel_componentdetailviewmodel_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/ComponentDetailViewModel.swift",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_safariviewcomponentviewmodel_swift",
+      "target": "foundation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SafariViewComponentViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_safariviewcomponentviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SafariViewComponentViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_safariviewcomponentviewmodel_swift",
+      "target": "viewmodels_safariviewcomponentviewmodel_safariviewcomponentviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SafariViewComponentViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_safariviewcomponentviewmodel_safariviewcomponentviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/SafariViewComponentViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_pickerviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_pickerviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_viewmodels_pickerviewmodel_swift",
+      "target": "viewmodels_pickerviewmodel_pickerviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_pickerviewmodel_pickerviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_pickerviewmodel_pickerviewmodel",
+      "target": "viewmodels_pickerviewmodel_pickerviewmodel_formatdate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/ViewModels/PickerViewModel.swift",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_models_componentmodels_swift",
+      "target": "foundation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_models_componentmodels_swift",
+      "target": "models_componentmodels_componentitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentitem",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentitem",
+      "target": "identifiable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_models_componentmodels_swift",
+      "target": "models_componentmodels_componentkind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_button",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_inputfield",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_slider",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_stepper",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_picker",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L15",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_toggle",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_alert",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_modal",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_webview",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L19",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_safariview",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L20",
+      "weight": 1.0
+    },
+    {
+      "source": "models_componentmodels_componentkind",
+      "target": "models_componentmodels_componentkind_unknown",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Models/ComponentModels.swift",
+      "source_location": "L21",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_pickerview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/PickerView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_pickerview_swift",
+      "target": "views_pickerview_pickerview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/PickerView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_pickerview_pickerview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/PickerView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_stepperview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/StepperView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_stepperview_swift",
+      "target": "views_stepperview_stepperview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/StepperView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_stepperview_stepperview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/StepperView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_toggleview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ToggleView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_toggleview_swift",
+      "target": "views_toggleview_toggleview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ToggleView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_toggleview_toggleview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ToggleView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_modalview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_modalview_swift",
+      "target": "views_modalview_modalview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_modalview_modalview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_modalview_swift",
+      "target": "views_modalview_modalcontentview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "views_modalview_modalcontentview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ModalView.swift",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_componentdetailview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_componentdetailview_swift",
+      "target": "views_componentdetailview_componentdetailview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_componentdetailview_componentdetailview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_componentdetailview_componentdetailview",
+      "target": "views_componentdetailview_componentdetailview_init",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_componentsview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ComponentsView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_componentsview_swift",
+      "target": "views_componentsview_componentsview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ComponentsView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_componentsview_componentsview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ComponentsView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_sliderview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SliderView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_sliderview_swift",
+      "target": "views_sliderview_sliderview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SliderView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_sliderview_sliderview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SliderView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_alertview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/AlertView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_alertview_swift",
+      "target": "views_alertview_alertview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/AlertView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_alertview_alertview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/AlertView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_inputfieldview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/InputFieldView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_inputfieldview_swift",
+      "target": "views_inputfieldview_inputfieldview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/InputFieldView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "views_inputfieldview_inputfieldview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/InputFieldView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_webviewcomponentview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_webviewcomponentview_swift",
+      "target": "webkit",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_webviewcomponentview_swift",
+      "target": "views_webviewcomponentview_webviewcomponentview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "views_webviewcomponentview_webviewcomponentview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_webviewcomponentview_swift",
+      "target": "views_webviewcomponentview_webviewcontainer",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "views_webviewcomponentview_webviewcontainer",
+      "target": "uiviewrepresentable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "views_webviewcomponentview_webviewcontainer",
+      "target": "views_webviewcomponentview_webviewcontainer_makeuiview",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "views_webviewcomponentview_webviewcontainer",
+      "target": "views_webviewcomponentview_webviewcontainer_updateuiview",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/WebViewComponentView.swift",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_safariviewcomponentview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_safariviewcomponentview_swift",
+      "target": "safariservices",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_safariviewcomponentview_swift",
+      "target": "views_safariviewcomponentview_safariviewcomponentview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "views_safariviewcomponentview_safariviewcomponentview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_safariviewcomponentview_swift",
+      "target": "views_safariviewcomponentview_safariview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "views_safariviewcomponentview_safariview",
+      "target": "uiviewcontrollerrepresentable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "views_safariviewcomponentview_safariview",
+      "target": "views_safariviewcomponentview_safariview_makeuiviewcontroller",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "views_safariviewcomponentview_safariview",
+      "target": "views_safariviewcomponentview_safariview_updateuiviewcontroller",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/SafariViewComponentView.swift",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_contentview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ContentView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_contentview_swift",
+      "target": "views_contentview_contentview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ContentView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_contentview_contentview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ContentView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_buttonview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ButtonView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_components_views_buttonview_swift",
+      "target": "views_buttonview_buttonview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ButtonView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_buttonview_buttonview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Components/Views/ButtonView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_scenariosviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/ScenariosViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_scenariosviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/ScenariosViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_scenariosviewmodel_swift",
+      "target": "viewmodels_scenariosviewmodel_scenariosviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/ScenariosViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_scenariosviewmodel_scenariosviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/ScenariosViewModel.swift",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_biometricauthviewmodel_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_biometricauthviewmodel_swift",
+      "target": "combine",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_biometricauthviewmodel_swift",
+      "target": "localauthentication",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_biometricauthviewmodel_swift",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthstate",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthstate",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthstate",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthstate_idle",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthstate",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthstate_success",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthstate",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthstate_failure",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_viewmodels_biometricauthviewmodel_swift",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel",
+      "target": "observableobject",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_refreshavailability",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_authenticate",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_availabilitymessage",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_biometrylabel",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_refreshavailability",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_availabilitymessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_refreshavailability",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_biometrylabel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_authenticate",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_biometrylabel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_authenticate",
+      "target": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_availabilitymessage",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_models_flowmodels_swift",
+      "target": "foundation",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_models_flowmodels_swift",
+      "target": "models_flowmodels_flowitem",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_flowmodels_flowitem",
+      "target": "identifiable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "models_flowmodels_flowitem",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_models_flowmodels_swift",
+      "target": "models_flowmodels_flowkind",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "models_flowmodels_flowkind",
+      "target": "hashable",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "models_flowmodels_flowkind",
+      "target": "models_flowmodels_flowkind_biometricauth",
+      "relation": "case_of",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Models/FlowModels.swift",
+      "source_location": "L11",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_views_biometricauthview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Views/BiometricAuthView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_views_biometricauthview_swift",
+      "target": "views_biometricauthview_biometricauthview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Views/BiometricAuthView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_biometricauthview_biometricauthview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Views/BiometricAuthView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_views_scenariosview_swift",
+      "target": "swiftui",
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "features_scenarios_views_scenariosview_swift",
+      "target": "views_scenariosview_scenariosview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_scenariosview_scenariosview",
+      "target": "view",
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "views_scenariosview_scenariosview",
+      "target": "views_scenariosview_scenariosview_destinationview",
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_requestaccess",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_fetchcontacts",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_contactspermissionviewmodel_contactspermissionviewmodel_fetchcontacts",
+      "target": "models_contactmodels_contactitem",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/ViewModels/ContactsPermissionViewModel.swift",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_requestphotopermission",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_photopermissionviewmodel_photopermissionviewmodel_loadphoto",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/ViewModels/PhotoPermissionViewModel.swift",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_requestnotificationpermission",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_notificationpermissionviewmodel_notificationpermissionviewmodel_sendtestnotification",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/ViewModels/NotificationPermissionViewModel.swift",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "views_permissionview_permissionview_destinationview",
+      "target": "views_photopermissionview_photopermissionview",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "views_permissionview_permissionview_destinationview",
+      "target": "views_notificationpermissionview_notificationpermissionview",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "views_permissionview_permissionview_destinationview",
+      "target": "views_contactspermissionview_contactspermissionview",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "views_permissionview_permissionview_destinationview",
+      "target": "views_locationpermissionview_locationpermissionview",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Permissions/Views/PermissionView.swift",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_componentsviewmodel_componentsviewmodel_init",
+      "target": "models_componentmodels_componentitem",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_componentsviewmodel_componentsviewmodel_init",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Components/ViewModels/ComponentsViewModel.swift",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "views_componentdetailview_componentdetailview_init",
+      "target": "viewmodels_componentdetailviewmodel_componentdetailviewmodel",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Components/Views/ComponentDetailView.swift",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_authenticate",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_availabilitymessage",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "viewmodels_biometricauthviewmodel_biometricauthviewmodel_biometrylabel",
+      "target": "string",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Scenarios/ViewModels/BiometricAuthViewModel.swift",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "views_scenariosview_scenariosview_destinationview",
+      "target": "views_biometricauthview_biometricauthview",
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "Features/Scenarios/Views/ScenariosView.swift",
+      "source_location": "L31",
+      "weight": 1.0
+    }
+  ],
+  "input_tokens": 0,
+  "output_tokens": 0
+}

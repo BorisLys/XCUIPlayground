@@ -9,4 +9,5 @@ struct FlowItem: Identifiable, Hashable {
 
 enum FlowKind: Hashable {
     case biometricAuth
+    case login
 }

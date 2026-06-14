@@ -1,0 +1,17 @@
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Components/Views/WebViewComponentView.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Components/Views/SafariViewComponentView.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Components/Views/ContentView.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Components/Views/ButtonView.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Scenarios/ViewModels/ScenariosViewModel.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Scenarios/ViewModels/BiometricAuthViewModel.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Scenarios/Models/FlowModels.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Scenarios/Views/BiometricAuthView.swift
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Features/Scenarios/Views/ScenariosView.swift
+/Users/borislysikov/Work/XCUIPlayground/README.md
+/Users/borislysikov/Work/XCUIPlayground/AGENTS.md
+/Users/borislysikov/Work/XCUIPlayground/CLAUDE.md
+/Users/borislysikov/Work/XCUIPlayground/docs/XCUIPlayground.png
+/Users/borislysikov/Work/XCUIPlayground/docs/Components.png
+/Users/borislysikov/Work/XCUIPlayground/docs/Flow.png
+/Users/borislysikov/Work/XCUIPlayground/docs/Permission.png
+/Users/borislysikov/Work/XCUIPlayground/XCUIPlayground/Resources/Assets.xcassets/AppIcon.appiconset/image545.png

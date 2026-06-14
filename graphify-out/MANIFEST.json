@@ -1,0 +1,37 @@
+{
+  "project": "XCUIPlayground",
+  "timestamp": "2026-05-28T09:20:16Z",
+  "pipeline_version": "graphify-latest",
+  "outputs": {
+    "reports": {
+      "graph_report": "GRAPH_REPORT.md",
+      "description": "Human-readable knowledge graph analysis with architecture insights"
+    },
+    "visualizations": {
+      "interactive_html": "graph.html",
+      "description": "Interactive D3.js force-directed graph visualization"
+    },
+    "data": {
+      "graph_json": "graph.json",
+      "extract_json": ".graphify_extract.json",
+      "analysis_json": ".graphify_analysis.json",
+      "description": "Structured data for GraphRAG, API integration, or further analysis"
+    }
+  },
+  "statistics": {
+    "files_analyzed": 53,
+    "code_files": 40,
+    "documentation_files": 3,
+    "image_files": 5,
+    "other_files": 5,
+    "total_nodes": 303,
+    "total_edges": 386,
+    "hyperedges": 9,
+    "communities": 22
+  },
+  "quality": {
+    "extracted_edges": "Direct relationships (imports, calls, explicit references)",
+    "inferred_edges": "Reasonable inferences from code patterns (confidence 0.55-0.95)",
+    "ambiguous_edges": "Flagged uncertain relationships (confidence 0.1-0.3)"
+  }
+}
