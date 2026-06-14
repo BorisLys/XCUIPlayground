@@ -51,6 +51,8 @@ struct PermissionView: View {
             ContactsPermissionView()
         case .location:
             LocationPermissionView()
+        case .reminders:
+            RemindersPermissionView()
         }
     }
 }
