@@ -28,6 +28,18 @@ final class PermissionViewModel: ObservableObject {
             kind: .location
         ),
         PermissionItem(
+            title: String(localized: "PermissionView.microphoneCell"),
+            systemImage: "mic",
+            color: .pink,
+            kind: .microphone
+        ),
+        PermissionItem(
+            title: String(localized: "PermissionView.calendarCell"),
+            systemImage: "calendar",
+            color: .blue,
+            kind: .calendar
+        ),
+        PermissionItem(
             title: String(localized: "PermissionView.remindersCell"),
             systemImage: "checklist",
             color: .orange,
