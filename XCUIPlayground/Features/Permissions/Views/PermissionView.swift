@@ -53,6 +53,8 @@ struct PermissionView: View {
             LocationPermissionView()
         case .microphone:
             MicrophonePermissionView()
+        case .calendar:
+            CalendarPermissionView()
         }
     }
 }

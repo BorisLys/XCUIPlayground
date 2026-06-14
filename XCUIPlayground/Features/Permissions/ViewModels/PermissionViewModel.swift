@@ -32,6 +32,12 @@ final class PermissionViewModel: ObservableObject {
             systemImage: "mic",
             color: .pink,
             kind: .microphone
+        ),
+        PermissionItem(
+            title: String(localized: "PermissionView.calendarCell"),
+            systemImage: "calendar",
+            color: .blue,
+            kind: .calendar
         )
     ]
 }

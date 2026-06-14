@@ -14,4 +14,5 @@ enum PermissionKind: Hashable {
     case contacts
     case location
     case microphone
+    case calendar
 }
