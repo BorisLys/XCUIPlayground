@@ -13,6 +13,7 @@ final class BiometricAuthViewModel: ObservableObject {
     @Published var errorMessage: String?
     @Published var availabilityMessage: String?
     @Published var isBiometryAvailable = false
+    @Published var isAuthenticating = false
     @Published var biometryTypeLabel: String?
 
     func refreshAvailability() {
@@ -26,14 +27,23 @@ final class BiometricAuthViewModel: ObservableObject {
     }
 
     func authenticate() {
+        guard !isAuthenticating else {
+            return
+        }
+
         let context = LAContext()
         var authError: NSError?
+        isAuthenticating = true
+        errorMessage = nil
 
         if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &authError) {
+            isBiometryAvailable = true
+            availabilityMessage = nil
             biometryTypeLabel = biometryLabel(for: context)
             let reason = String(localized: "BiometricAuthView.reason")
             context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { [weak self] success, error in
                 DispatchQueue.main.async {
+                    self?.isAuthenticating = false
                     if success {
                         self?.state = .success
                         self?.errorMessage = nil
@@ -43,7 +53,9 @@ final class BiometricAuthViewModel: ObservableObject {
                     }
                 }
             }
-        }  else {
+        } else {
+            isAuthenticating = false
+            isBiometryAvailable = false
             state = .failure
             errorMessage = authError?.localizedDescription ?? String(localized: "BiometricAuthView.unavailable")
             availabilityMessage = availabilityMessage(for: authError)

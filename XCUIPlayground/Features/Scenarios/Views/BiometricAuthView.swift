@@ -56,11 +56,11 @@ struct BiometricAuthView: View {
                     Text(String(localized: "BiometricAuthView.button"))
                         .frame(maxWidth: .infinity)
                         .padding()
-                        .background(Color.blue)
+                        .background(viewModel.isAuthenticating ? Color.gray : Color.blue)
                         .foregroundColor(.white)
                         .cornerRadius(10)
                 }
-                .disabled(!viewModel.isBiometryAvailable)
+                .disabled(viewModel.isAuthenticating)
 
                 if let availabilityMessage = viewModel.availabilityMessage, !availabilityMessage.isEmpty {
                     Text(availabilityMessage)

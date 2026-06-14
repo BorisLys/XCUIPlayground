@@ -6,6 +6,11 @@ final class ScenariosViewModel: ObservableObject {
 
     let items: [FlowItem] = [
         FlowItem(
+            title: String(localized: "FlowView.loginTitle"),
+            subtitle: String(localized: "FlowView.loginSubtitle"),
+            kind: .login
+        ),
+        FlowItem(
             title: String(localized: "FlowView.biometricTitle"),
             subtitle: String(localized: "FlowView.biometricSubtitle"),
             kind: .biometricAuth
