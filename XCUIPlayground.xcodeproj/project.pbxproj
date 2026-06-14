@@ -258,6 +258,7 @@
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely authenticate you in the app.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier is used to measure ad performance and improve user experience.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -305,6 +306,7 @@
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely authenticate you in the app.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier is used to measure ad performance and improve user experience.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
