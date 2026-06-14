@@ -1,3 +1,4 @@
+import AppTrackingTransparency
 import SwiftUI
 
 struct TrackingPermissionView: View {
