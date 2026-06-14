@@ -2587,6 +2587,210 @@
         }
       }
     },
+    "MicrophonePermissionView.alertTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Микрофон"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.deniedMessage": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone access denied."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доступ к микрофону отклонён."
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.playButton": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Play Recording"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Воспроизвести запись"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.recordButton": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Record 3 Seconds"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Записать 3 секунды"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.recordTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Test Recording"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Тестовая запись"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.requestButton": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Request Microphone Access"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Запросить доступ к микрофону"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.requestTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone Access"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доступ к микрофону"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.settingsButton": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Открыть настройки"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.settingsTitle": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone Access Denied"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доступ к микрофону запрещён"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.stopButton": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Stop Recording"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Остановить запись"
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.successMessage": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone access granted."
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Доступ к микрофону разрешён."
+          }
+        }
+      }
+    },
+    "MicrophonePermissionView.title": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Микрофон"
+          }
+        }
+      }
+    },
     "ModalView.close": {
       "extractionState": "manual",
       "localizations": {
@@ -3093,6 +3297,23 @@
           "stringUnit": {
             "state": "translated",
             "value": "Геолокация"
+          }
+        }
+      }
+    },
+    "PermissionView.microphoneCell": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Microphone"
+          }
+        },
+        "ru": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Микрофон"
           }
         }
       }

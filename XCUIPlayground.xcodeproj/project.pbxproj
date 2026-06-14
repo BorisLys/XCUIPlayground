@@ -258,6 +258,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera so you can take photos inside the app.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely authenticate you in the app.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record audio for testing.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
@@ -306,6 +307,7 @@
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera so you can take photos inside the app.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely authenticate you in the app.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record audio for testing.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
