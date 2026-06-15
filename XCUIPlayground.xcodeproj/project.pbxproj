@@ -254,11 +254,21 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Calendar access is needed to list and create events for testing.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera so you can take photos inside the app.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely authenticate you in the app.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
+<<<<<<< HEAD
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion & Fitness access is needed to show step count data for testing.";
+=======
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record audio for testing.";
+>>>>>>> origin/main
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
+<<<<<<< HEAD
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier is used to measure ad performance and improve user experience.";
+=======
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "Reminders access is needed to list and create reminders for testing.";
+>>>>>>> origin/main
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -302,11 +312,21 @@
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCalendarsFullAccessUsageDescription = "Calendar access is needed to list and create events for testing.";
 				INFOPLIST_KEY_NSCameraUsageDescription = "We need access to the camera so you can take photos inside the app.";
 				INFOPLIST_KEY_NSFaceIDUsageDescription = "Face ID is used to securely authenticate you in the app.";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
+<<<<<<< HEAD
+				INFOPLIST_KEY_NSMotionUsageDescription = "Motion & Fitness access is needed to show step count data for testing.";
+=======
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record audio for testing.";
+>>>>>>> origin/main
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
+<<<<<<< HEAD
 				INFOPLIST_KEY_NSUserTrackingUsageDescription = "This identifier is used to measure ad performance and improve user experience.";
+=======
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "Reminders access is needed to list and create reminders for testing.";
+>>>>>>> origin/main
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
