@@ -1,5 +1,6 @@
 import AppTrackingTransparency
 import SwiftUI
+import Combine
 
 @main
 struct XCUIPlaygroundApp: App {
