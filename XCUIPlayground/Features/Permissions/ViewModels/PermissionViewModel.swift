@@ -38,6 +38,12 @@ final class PermissionViewModel: ObservableObject {
             systemImage: "calendar",
             color: .blue,
             kind: .calendar
+        ),
+        PermissionItem(
+            title: String(localized: "PermissionView.remindersCell"),
+            systemImage: "checklist",
+            color: .orange,
+            kind: .reminders
         )
     ]
 }

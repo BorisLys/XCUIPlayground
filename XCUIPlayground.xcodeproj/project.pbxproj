@@ -260,6 +260,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record audio for testing.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "Reminders access is needed to list and create reminders for testing.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -309,6 +310,7 @@
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We use your location to show it on the map and provide location-based features.";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Microphone access is needed to record audio for testing.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Нужно для выбора фотографии.";
+				INFOPLIST_KEY_NSRemindersFullAccessUsageDescription = "Reminders access is needed to list and create reminders for testing.";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
