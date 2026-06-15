@@ -50,6 +50,12 @@ final class PermissionViewModel: ObservableObject {
             systemImage: "figure.walk",
             color: .purple,
             kind: .motion
+        ),
+        PermissionItem(
+            title: String(localized: "PermissionView.trackingCell"),
+            systemImage: "app.badge.checkmark",
+            color: .indigo,
+            kind: .tracking
         )
     ]
 }

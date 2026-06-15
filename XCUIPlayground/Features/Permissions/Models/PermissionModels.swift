@@ -17,4 +17,5 @@ enum PermissionKind: Hashable {
     case calendar
     case reminders
     case motion
+    case tracking
 }

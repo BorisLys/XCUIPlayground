@@ -59,6 +59,8 @@ struct PermissionView: View {
             RemindersPermissionView()
         case .motion:
             MotionPermissionView()
+        case .tracking:
+            TrackingPermissionView()
         }
     }
 }
