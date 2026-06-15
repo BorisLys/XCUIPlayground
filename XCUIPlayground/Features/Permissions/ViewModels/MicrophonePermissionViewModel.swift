@@ -43,8 +43,14 @@ final class MicrophonePermissionViewModel: ObservableObject {
 
     func startRecording() {
         let session = AVAudioSession.sharedInstance()
-        try? session.setCategory(.playAndRecord, mode: .default)
-        try? session.setActive(true)
+        do {
+            try session.setCategory(.playAndRecord, mode: .default, options: .defaultToSpeaker)
+            try session.setActive(true)
+        } catch {
+            alertMessage = String(localized: "MicrophonePermissionView.errorMessage") + ": \(error.localizedDescription)"
+            showAlert = true
+            return
+        }
 
         let settings: [String: Any] = [
             AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
@@ -52,11 +58,19 @@ final class MicrophonePermissionViewModel: ObservableObject {
             AVNumberOfChannelsKey: 1,
             AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue
         ]
-        audioRecorder = try? AVAudioRecorder(url: recordingURL, settings: settings)
-        audioRecorder?.record(forDuration: 3)
-        isRecording = true
 
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) { [weak self] in
+        do {
+            audioRecorder = try AVAudioRecorder(url: recordingURL, settings: settings)
+            audioRecorder?.prepareToRecord()
+            audioRecorder?.record(forDuration: 3)
+            isRecording = true
+        } catch {
+            alertMessage = String(localized: "MicrophonePermissionView.errorMessage") + ": \(error.localizedDescription)"
+            showAlert = true
+            return
+        }
+
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3.1) { [weak self] in
             self?.stopRecording()
         }
     }
@@ -68,7 +82,16 @@ final class MicrophonePermissionViewModel: ObservableObject {
     }
 
     func playRecording() {
-        audioPlayer = try? AVAudioPlayer(contentsOf: recordingURL)
-        audioPlayer?.play()
+        let session = AVAudioSession.sharedInstance()
+        try? session.setCategory(.playback, mode: .default)
+        try? session.setActive(true)
+
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: recordingURL)
+            audioPlayer?.play()
+        } catch {
+            alertMessage = String(localized: "MicrophonePermissionView.errorMessage") + ": \(error.localizedDescription)"
+            showAlert = true
+        }
     }
 }
