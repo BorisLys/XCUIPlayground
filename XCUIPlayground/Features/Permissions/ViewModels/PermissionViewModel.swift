@@ -44,6 +44,12 @@ final class PermissionViewModel: ObservableObject {
             systemImage: "checklist",
             color: .orange,
             kind: .reminders
+        ),
+        PermissionItem(
+            title: String(localized: "PermissionView.motionCell"),
+            systemImage: "figure.walk",
+            color: .purple,
+            kind: .motion
         )
     ]
 }

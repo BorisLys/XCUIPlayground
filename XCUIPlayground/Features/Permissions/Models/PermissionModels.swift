@@ -16,4 +16,5 @@ enum PermissionKind: Hashable {
     case microphone
     case calendar
     case reminders
+    case motion
 }

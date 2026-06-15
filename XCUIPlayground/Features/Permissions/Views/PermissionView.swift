@@ -57,6 +57,8 @@ struct PermissionView: View {
             CalendarPermissionView()
         case .reminders:
             RemindersPermissionView()
+        case .motion:
+            MotionPermissionView()
         }
     }
 }
