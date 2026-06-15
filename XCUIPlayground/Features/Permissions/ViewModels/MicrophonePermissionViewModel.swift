@@ -14,7 +14,7 @@ final class MicrophonePermissionViewModel: ObservableObject {
     private var audioRecorder: AVAudioRecorder?
     private var audioPlayer: AVAudioPlayer?
     private var recordingURL: URL {
-        FileManager.default.temporaryDirectory.appendingPathComponent("mic_test.m4a")
+        FileManager.default.temporaryDirectory.appendingPathComponent("mic_test.wav")
     }
 
     func checkStatus() {
@@ -53,10 +53,12 @@ final class MicrophonePermissionViewModel: ObservableObject {
         }
 
         let settings: [String: Any] = [
-            AVFormatIDKey: Int(kAudioFormatMPEG4AAC),
+            AVFormatIDKey: Int(kAudioFormatLinearPCM),
             AVSampleRateKey: 44100,
             AVNumberOfChannelsKey: 1,
-            AVEncoderAudioQualityKey: AVAudioQuality.high.rawValue
+            AVLinearPCMBitDepthKey: 16,
+            AVLinearPCMIsBigEndianKey: false,
+            AVLinearPCMIsFloatKey: false
         ]
 
         do {
