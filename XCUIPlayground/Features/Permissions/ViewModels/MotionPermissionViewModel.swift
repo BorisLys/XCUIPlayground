@@ -19,11 +19,6 @@ final class MotionPermissionViewModel: ObservableObject {
     }
 
     func requestAndFetchSteps() {
-        guard CMPedometer.isStepCountingAvailable() else {
-            alertMessage = String(localized: "MotionPermissionView.unavailableMessage")
-            showAlert = true
-            return
-        }
         isLoading = true
         let start = Calendar.current.startOfDay(for: Date())
         pedometer.queryPedometerData(from: start, to: Date()) { [weak self] data, error in
