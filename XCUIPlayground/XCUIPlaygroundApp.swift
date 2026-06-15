@@ -7,6 +7,7 @@ struct XCUIPlaygroundApp: App {
         WindowGroup {
             ContentView()
                 .task {
+                    guard ATTrackingManager.trackingAuthorizationStatus == .notDetermined else { return }
                     await ATTrackingManager.requestTrackingAuthorization()
                 }
         }
